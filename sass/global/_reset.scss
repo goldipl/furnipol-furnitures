@@ -1,5 +1,16 @@
-* {
+body,
+html {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: $white;
+  background-repeat: repeat;
+  background-position: left top;
+  line-height: 15px;
+  color: $black;
+  font-size: 9px;
+  font-family: Poppins, "Roboto", Tahoma, Verdana, Helvetica;
+  margin-top: 15px;
 }

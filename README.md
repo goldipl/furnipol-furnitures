@@ -19,6 +19,7 @@ Used technologies:
 
 - JavaScript
 - Swiper.js 11.1.4
+- Bootstrap 3.3.7
 - HTML5
 - SCSS
 
