@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./src/icons/header/furnipol-logo.svg" height="40" style="background: white; padding: 8px"/>
+    <img src="./assets/icons/header/furnipol-logo.svg" height="40"/>
 </p>
 
 <h1 align="center">FURNIPOL website</h1>
