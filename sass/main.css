@@ -9,23 +9,129 @@ body {
   background-repeat: repeat;
   background-position: left top;
   line-height: 15px;
-  color: #000000;
+  color: #0f0f0f;
   font-size: 9px;
   font-family: Poppins, "Roboto", Tahoma, Verdana, Helvetica;
-  margin-top: 15px;
 }
 
 .header-2-0 {
   display: flex;
   flex-direction: column;
+  background-color: #f5f5f5;
+  height: 84px;
+  max-width: 1728px;
+  margin: 0 auto;
 }
 .header-2-0 .top-header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  border-bottom: 2px solid #ffffff;
+}
+.header-2-0 .top-header__logo {
+  margin: 0 38px;
+}
+.header-2-0 .top-header__search-box {
+  position: relative;
+  margin: 0 38px;
+  width: 420px;
+  height: 44px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.header-2-0 .top-header__search-box input {
+  all: unset;
+  width: 420px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #a8a8a9;
+  padding: 0 60px 0 27px;
+  font-size: 16px;
+  color: #25262b;
+  box-sizing: border-box;
+}
+.header-2-0 .top-header__search-box input::-moz-placeholder {
+  font-size: 16px;
+}
+.header-2-0 .top-header__search-box input::placeholder {
+  font-size: 16px;
+}
+.header-2-0 .top-header__search-box input:hover, .header-2-0 .top-header__search-box input:focus, .header-2-0 .top-header__search-box input:active {
+  border: 1px solid #25262b;
+  outline: unset;
+}
+.header-2-0 .top-header__search-box button {
+  all: unset;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 .header-2-0 .top-header__buttons {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 0 38px;
+}
+.header-2-0 .top-header__buttons .my-account {
+  display: flex;
+  margin-right: 33px;
+}
+.header-2-0 .top-header__buttons .my-account a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: unset;
+}
+.header-2-0 .top-header__buttons .my-account a img {
+  display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 11px;
+}
+.header-2-0 .top-header__buttons .my-account a span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #25262b;
+}
+.header-2-0 .top-header__buttons .favourites {
+  display: flex;
+  margin-right: 22px;
+}
+.header-2-0 .top-header__buttons .cart {
+  position: relative;
+  display: flex;
+  margin-right: 45px;
+}
+.header-2-0 .top-header__buttons .cart-quantity {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  width: auto;
+  min-width: 21px;
+  background-color: #eb7d3f;
+  border-radius: 100%;
+}
+.header-2-0 .top-header__buttons .cart-quantity span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+.header-2-0 .top-header__buttons .vertical-divider {
+  display: flex;
+  height: 41px;
+  width: 1px;
+  background-color: #25262b;
 }
 .header-2-0 .top-header__buttons .hamburger-menu {
   width: 28px;
@@ -35,7 +141,7 @@ body {
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  margin-left: 8px;
+  margin-left: 45px;
 }
 .header-2-0 .top-header__buttons .hamburger-menu span {
   display: block;
