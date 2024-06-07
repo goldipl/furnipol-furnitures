@@ -1,0 +1,119 @@
+.header-2-0 {
+  display: flex;
+  flex-direction: column;
+
+  .top-header {
+    display: flex;
+    flex-direction: row;
+
+    &__logo {
+    }
+
+    &__search-box {
+    }
+
+    &__buttons {
+      display: flex;
+      flex-direction: row;
+
+      .my-account {
+      }
+
+      .favourites {
+      }
+
+      .cart {
+      }
+
+      .vertical-divider {
+      }
+
+      .hamburger-menu {
+        width: 28px;
+        height: 28px;
+        position: relative;
+        margin: auto;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        margin-left: 8px;
+
+        span {
+          display: block;
+          position: absolute;
+          height: 2px;
+          width: 100%;
+          background: $grey01;
+          border-radius: 4px;
+          opacity: 1;
+          left: 0;
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: 0.25s ease-in-out;
+          -moz-transition: 0.25s ease-in-out;
+          -o-transition: 0.25s ease-in-out;
+          transition: 0.25s ease-in-out;
+
+          &:nth-child(1) {
+            top: 0px;
+            -webkit-transform-origin: left center;
+            -moz-transform-origin: left center;
+            -o-transform-origin: left center;
+            transform-origin: left center;
+          }
+
+          &:nth-child(2) {
+            top: 12px;
+            -webkit-transform-origin: left center;
+            -moz-transform-origin: left center;
+            -o-transform-origin: left center;
+            transform-origin: left center;
+          }
+
+          &:nth-child(3) {
+            top: 24px;
+            -webkit-transform-origin: left center;
+            -moz-transform-origin: left center;
+            -o-transform-origin: left center;
+            transform-origin: left center;
+          }
+        }
+
+        &.open {
+          span {
+            &:nth-child(1) {
+              -webkit-transform: rotate(45deg);
+              -moz-transform: rotate(45deg);
+              -o-transform: rotate(45deg);
+              transform: rotate(45deg);
+              top: 3px;
+              left: 5px;
+            }
+
+            &:nth-child(2) {
+              width: 0%;
+              opacity: 0;
+            }
+
+            &:nth-child(3) {
+              -webkit-transform: rotate(-45deg);
+              -moz-transform: rotate(-45deg);
+              -o-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+              top: 22px;
+              left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
