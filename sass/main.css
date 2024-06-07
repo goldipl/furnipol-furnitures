@@ -185,4 +185,13 @@ body {
 .main-2-0 #hero-swiper .hero-swiper {
   width: 1728px;
   height: 600px;
+  margin-bottom: 40px;
+}
+
+.main-2-0 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin: 0 0 80px 0;
 }/*# sourceMappingURL=main.css.map */
