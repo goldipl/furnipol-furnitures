@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5;
-  height: 84px;
+  height: 133px;
   max-width: 1728px;
   margin: 0 auto;
 }
@@ -29,6 +29,7 @@ body {
   align-items: center;
   height: 84px;
   border-bottom: 2px solid #ffffff;
+  box-sizing: border-box;
 }
 .header-2-0 .top-header__logo {
   margin: 0 38px;
@@ -180,6 +181,39 @@ body {
   transform: rotate(-45deg);
   top: 22px;
   left: 5px;
+}
+.header-2-0 .bottom-header {
+  height: 49px;
+  box-sizing: border-box;
+}
+.header-2-0 .bottom-header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+  box-sizing: border-box;
+}
+.header-2-0 .bottom-header-nav__el {
+  padding: 14px 24px;
+  cursor: pointer;
+  border-right: 2px solid #ffffff;
+  border-bottom: 6px solid rgba(255, 255, 255, 0);
+}
+.header-2-0 .bottom-header-nav__el:hover {
+  border-bottom: 6px solid #eb7d3f;
+}
+.header-2-0 .bottom-header-nav__el.sale span {
+  color: #eb7d3f;
+}
+.header-2-0 .bottom-header-nav__el:last-of-type {
+  border-right: 0;
+}
+.header-2-0 .bottom-header-nav__el span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
 }
 
 .main-2-0 #hero-swiper .hero-swiper {

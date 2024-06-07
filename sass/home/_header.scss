@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: $light_grey01;
-  height: 84px;
+  height: 133px;
   max-width: 1728px;
   margin: 0 auto;
 
@@ -13,6 +13,7 @@
     align-items: center;
     height: 84px;
     border-bottom: 2px solid $white;
+    box-sizing: border-box;
 
     &__logo {
       margin: 0 38px;
@@ -205,6 +206,42 @@
               left: 5px;
             }
           }
+        }
+      }
+    }
+  }
+
+  .bottom-header {
+    height: 49px;
+    box-sizing: border-box;
+    &-nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 49px;
+      box-sizing: border-box;
+      &__el {
+        padding: 14px 24px;
+        cursor: pointer;
+        border-right: 2px solid $white;
+        border-bottom: 6px solid $transparent;
+        &:hover {
+          border-bottom: 6px solid $furnipol_orange;
+        }
+        &.sale {
+          span {
+            color: $furnipol_orange;
+          }
+        }
+        &:last-of-type {
+          border-right: 0;
+        }
+        span {
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 21px;
+          text-transform: uppercase;
         }
       }
     }
