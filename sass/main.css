@@ -222,6 +222,13 @@ body {
   height: 600px;
   margin-bottom: 40px;
 }
+.main-2-0 #hero-swiper .hero-swiper .swiper-button-prev,
+.main-2-0 #hero-swiper .hero-swiper .swiper-button-next {
+  color: #eb7d3f;
+}
+.main-2-0 #hero-swiper .hero-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #eb7d3f;
+}
 
 .main-2-0 h2 {
   font-size: 32px;
