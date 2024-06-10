@@ -125,4 +125,16 @@ document.addEventListener('DOMContentLoaded', () => {
   toggleGardenTimeSwiper();
   window.addEventListener('resize', toggleGardenTimeSwiper);
 
+  const bundle_swiper = new Swiper('.bundle-promo-swiper', {
+    direction: 'horizontal',
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.bundle-promo-swiper-next',
+      prevEl: '.swiper-button-prev.bundle-promo-swiper-prev',
+    },
+  });
+
 });

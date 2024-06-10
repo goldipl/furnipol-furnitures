@@ -1,0 +1,78 @@
+.main-2-0 {
+  #text-swiper-section {
+    width: 100vw;
+    background-color: $light_grey01;
+    padding: 55px 0;
+    .text-swiper-section-wrapper {
+      display: flex;
+      flex-direction: row;
+      margin: 110px auto 55px;
+      max-width: 1380px;
+      &__col {
+        min-width: 392px;
+        width: 392px;
+        margin-right: 35px;
+        h2 {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 48px;
+          text-align: left;
+          margin: 30px 0 30px 0;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 26px;
+          text-align: left;
+          margin: 0 0 15px 0;
+        }
+      }
+      &__swiper {
+        .bundle-promo-swiper {
+          .swiper-slide {
+            width: max-content !important;
+            margin-right: 12px !important;
+            border-radius: 16px !important;
+            img {
+              border-radius: 16px !important;
+            }
+          }
+          .swiper-button-prev.bundle-promo-swiper-prev {
+            height: 55px;
+            width: 55px;
+            left: 20px;
+            &::after {
+              font-size: 0;
+              letter-spacing: 0;
+              font-variant: initial;
+              line-height: 1;
+              background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
+              height: 55px;
+              width: 55px;
+              font-size: 0;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+          .swiper-button-next.bundle-promo-swiper-prev {
+            height: 55px;
+            width: 55px;
+            right: 20px;
+            &::after {
+              font-size: 0;
+              letter-spacing: 0;
+              font-variant: initial;
+              line-height: 1;
+              background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
+              height: 55px;
+              width: 55px;
+              font-size: 0;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+}

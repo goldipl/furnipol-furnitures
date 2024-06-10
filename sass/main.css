@@ -659,9 +659,8 @@ body {
 }
 .main-2-0 #welcome {
   width: 100%;
-  margin: 0 auto;
+  margin: 110px auto 55px;
   max-width: 1380px;
-  margin-bottom: 55px;
 }
 .main-2-0 #welcome .welcome-text {
   display: flex;
@@ -687,6 +686,80 @@ body {
     width: 100%;
   }
 }
+.main-2-0 #text-swiper-section {
+  width: 100vw;
+  background-color: #f5f5f5;
+  padding: 55px 0;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 110px auto 55px;
+  max-width: 1380px;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__col {
+  min-width: 392px;
+  width: 392px;
+  margin-right: 35px;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__col h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin: 30px 0 30px 0;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__col p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  margin: 0 0 15px 0;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-slide {
+  width: -moz-max-content !important;
+  width: max-content !important;
+  margin-right: 12px !important;
+  border-radius: 16px !important;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-slide img {
+  border-radius: 16px !important;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-prev.bundle-promo-swiper-prev {
+  height: 55px;
+  width: 55px;
+  left: 20px;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-prev.bundle-promo-swiper-prev::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-prev {
+  height: 55px;
+  width: 55px;
+  right: 20px;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-prev::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
