@@ -1,0 +1,156 @@
+#sale {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1728px;
+  #sale-slider {
+    position: relative;
+    margin-bottom: 55px;
+    .swiper-button-prev {
+      height: 55px;
+      width: 55px;
+      left: 65px;
+      &::after {
+        font-size: 0;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        background: url(./../../assets/icons/home/sale_section/swiper-arrow-left.svg);
+        height: 55px;
+        width: 55px;
+        font-size: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .swiper-button-next {
+      height: 55px;
+      width: 55px;
+      right: 65px;
+      &::after {
+        font-size: 0;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        background: url(./../../assets/icons/home/sale_section/swiper-arrow-right.svg);
+        height: 55px;
+        width: 55px;
+        font-size: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .swiper-wrapper {
+      .swiper-slide {
+        position: relative;
+        width: 271px;
+        height: 370px;
+        padding: 10px;
+        border: 1px solid $transparent;
+        &:hover {
+          border: 1px solid $light_grey03;
+          .add-to-the-cart {
+            display: flex;
+          }
+        }
+        &__icons {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 5px;
+          .compare-box-icon,
+          .fav-box-icon {
+            all: unset;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $light_grey03;
+            width: 30px;
+            height: 30px;
+            box-sizing: border-box;
+            border-radius: 7px;
+            cursor: pointer;
+            &:hover {
+              border: 1px solid $furnipol_orange;
+            }
+          }
+        }
+        &__img {
+          display: flex;
+          width: 251px;
+          height: 214px;
+          border-radius: 20px;
+          margin-bottom: 13px;
+          img {
+            border-radius: 20px;
+            object-fit: cover;
+          }
+        }
+        &__content {
+          &-top {
+            margin-bottom: 8px;
+            .sale-product-title {
+              display: inline-flex;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 21px;
+              text-align: left;
+              color: $furnipol_black;
+            }
+            .sale-product-desc {
+              display: inline-flex;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 19px;
+              text-align: left;
+              color: $furnipol_black;
+            }
+          }
+          &-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            .swiper-sale-product-row {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+            }
+            .sale-product-price {
+              display: block;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+              max-width: 140px;
+              overflow: hidden;
+              white-space: nowrap;
+              max-width: 200px;
+              font-size: 28px;
+              font-weight: 600;
+              line-height: 42px;
+              text-align: left;
+              color: $black;
+            }
+            .add-to-the-cart {
+              all: unset;
+              display: none;
+              justify-content: center;
+              align-items: center;
+              width: 49px;
+              height: 30px;
+              box-sizing: border-box;
+              background-color: $grey01;
+              border-radius: 5px;
+              cursor: pointer;
+              img {
+                object-fit: contain;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -246,6 +246,162 @@ body {
   background-color: #eb7d3f;
 }
 
+#sale {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1728px;
+}
+#sale #sale-slider {
+  position: relative;
+  margin-bottom: 55px;
+}
+#sale #sale-slider .swiper-button-prev {
+  height: 55px;
+  width: 55px;
+  left: 65px;
+}
+#sale #sale-slider .swiper-button-prev::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../../assets/icons/home/sale_section/swiper-arrow-left.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sale #sale-slider .swiper-button-next {
+  height: 55px;
+  width: 55px;
+  right: 65px;
+}
+#sale #sale-slider .swiper-button-next::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../../assets/icons/home/sale_section/swiper-arrow-right.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: 271px;
+  height: 370px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide:hover {
+  border: 1px solid #d9d9d9;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide:hover .add-to-the-cart {
+  display: flex;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__icons .compare-box-icon,
+#sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__icons .compare-box-icon:hover,
+#sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon:hover {
+  border: 1px solid #eb7d3f;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__img {
+  display: flex;
+  width: 251px;
+  height: 214px;
+  border-radius: 20px;
+  margin-bottom: 13px;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__img img {
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-top {
+  margin-bottom: 8px;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-top .sale-product-title {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #0f0f0f;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-top .sale-product-desc {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: left;
+  color: #0f0f0f;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-bottom .swiper-sale-product-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-bottom .sale-product-price {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 140px;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 200px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  color: #000000;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-bottom .add-to-the-cart {
+  all: unset;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: #25262b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#sale #sale-slider .swiper-wrapper .swiper-slide__content-bottom .add-to-the-cart img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
