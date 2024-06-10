@@ -84,4 +84,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
   toggleFavSwiper();
   window.addEventListener('resize', toggleFavSwiper);
+
+  let gardenTimeSwiper;
+
+  const toggleGardenTimeSwiper = () => {
+    if (window.innerWidth < 760) {
+      if (!gardenTimeSwiper) {
+        favSwiper = new Swiper('.fav-cat-swiper', {
+          direction: 'horizontal',
+          slidesPerView: 1,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: '.swiper-button-next.garden-time-swiper-next',
+            prevEl: '.swiper-button-prev.garden-time-swiper-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          breakpoints: {
+            760: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            200: {
+              slidesPerView: 1,
+              spaceBetween: 15,
+            },
+          },
+        });
+      }
+    } else {
+      if (gardenTimeSwiper) {
+        gardenTimeSwiper.destroy(true, true);
+        gardenTimeSwiper = undefined;
+      }
+    }
+  }
+
+  toggleGardenTimeSwiper();
+  window.addEventListener('resize', toggleGardenTimeSwiper);
+
 });
