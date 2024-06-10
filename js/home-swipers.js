@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   });
 
-  const sale_swiper = new Swiper('.sale-swiper', {
+  const saleSwiper = new Swiper('.sale-swiper', {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 6,
@@ -44,4 +44,44 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     },
   });
+
+  let favSwiper;
+
+  const toggleFavSwiper = () => {
+    if (window.innerWidth < 760) {
+      if (!favSwiper) {
+        favSwiper = new Swiper('.fav-cat-swiper', {
+          direction: 'horizontal',
+          slidesPerView: 1,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: '.swiper-button-next.fav-swiper-next',
+            prevEl: '.swiper-button-prev.fav-swiper-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          breakpoints: {
+            760: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            200: {
+              slidesPerView: 1,
+              spaceBetween: 15,
+            },
+          },
+        });
+      }
+    } else {
+      if (favSwiper) {
+        favSwiper.destroy(true, true);
+        favSwiper = undefined;
+      }
+    }
+  }
+
+  toggleFavSwiper();
+  window.addEventListener('resize', toggleFavSwiper);
 });

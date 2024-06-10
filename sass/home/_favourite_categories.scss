@@ -1,0 +1,132 @@
+#favourite-categories {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1380px;
+  .swiper-button-next.fav-swiper-next,
+  .swiper-button-prev.fav-swiper-prev {
+    display: none;
+  }
+  .favourite-categories {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px 15px;
+    &-slot {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+      box-sizing: border-box;
+      border: 1px solid $transparent;
+      border-radius: 16px;
+      text-decoration: none;
+      width: 15% !important;
+      margin-right: 0 !important;
+      &:hover {
+        border: 1px solid $light_grey03;
+      }
+      &__img {
+        img {
+          width: 180px;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        h3 {
+          display: inline-flex;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          text-align: center;
+          color: $furnipol_black;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  #favourite-categories {
+    .swiper-button-prev.fav-swiper-prev {
+      display: flex;
+      height: 55px;
+      width: 55px;
+      left: 65px;
+      &::after {
+        display: flex;
+        font-size: 0;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
+        height: 55px;
+        width: 55px;
+        font-size: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .swiper-button-next.fav-swiper-next {
+      display: flex;
+      height: 55px;
+      width: 55px;
+      right: 65px;
+      &::after {
+        display: flex;
+        font-size: 0;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
+        height: 55px;
+        width: 55px;
+        font-size: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .favourite-categories {
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      &-slot {
+        width: 90% !important;
+        &:hover {
+          border: 1px solid $light_grey03;
+        }
+        &__img {
+          img {
+            width: 180px;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+        &__title {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 80%;
+          h3 {
+            display: inline-flex;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: center;
+            color: $furnipol_black;
+          }
+        }
+      }
+    }
+  }
+}
