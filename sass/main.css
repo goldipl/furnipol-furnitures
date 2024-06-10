@@ -742,12 +742,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-prev {
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-next {
   height: 55px;
   width: 55px;
   right: 20px;
 }
-.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-prev::after {
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-next::after {
   font-size: 0;
   letter-spacing: 0;
   font-variant: initial;
