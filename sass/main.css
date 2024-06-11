@@ -15,6 +15,72 @@ body {
   font-family: Poppins, "Roboto", Tahoma, Verdana, Helvetica;
 }
 
+/* The container */
+.custom-checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox-checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #25262b;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox-container:hover input ~ .custom-checkbox-checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a grey background */
+.custom-checkbox-container input:checked ~ .custom-checkbox-checkmark {
+  background-color: #f4f4f4;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.custom-checkbox-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox-container input:checked ~ .custom-checkbox-checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox-container .custom-checkbox-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 6px;
+  height: 12px;
+  border: solid #eb7d3f;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
 .header-2-0 {
   display: flex;
   flex-direction: column;
@@ -828,6 +894,12 @@ body {
   margin: 0 auto;
 }
 
+.main-2-0 #newsletter-section {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
