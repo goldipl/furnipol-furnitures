@@ -821,6 +821,13 @@ body {
   margin: 0 16px 0 0;
 }
 
+.main-2-0 #reviews-section {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
