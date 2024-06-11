@@ -952,7 +952,165 @@ body {
   display: block;
   width: 100%;
   margin: 0 auto;
+  background-color: #ffebd0;
 }
+.main-2-0 #newsletter-section .newsletter-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1728px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left {
+  margin-left: 76px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin: 0 10px 0 0;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2.upper {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2 span {
+  display: inline-flex;
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #eb7d3f;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-bottom p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #25262b;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-bottom p span {
+  display: inline-flex;
+  margin: 0 12px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 80px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form input {
+  all: unset;
+  width: 373px;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #25262b;
+  padding: 0 22px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form input::-moz-placeholder {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #25262b;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form input::placeholder {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #25262b;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form button {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 60px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: #eb7d3f;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  cursor: pointer;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox {
+  display: flex;
+  align-items: center;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-checkmark {
+  width: 17px;
+  height: 17px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-checkmark::after {
+  left: 6px;
+  top: -5px;
+  width: 8px;
+  height: 18px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: left;
+  color: #25262b;
+  padding-left: 24px;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container a {
+  display: inline-flex;
+  margin-left: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 41px;
+  text-align: left;
+  color: #25262b;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container a:hover {
+  text-decoration: none;
+  color: #eb7d3f;
+}
+
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
