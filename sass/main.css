@@ -771,6 +771,7 @@ body {
   flex-direction: row;
   margin: 110px auto 55px;
   max-width: 1380px;
+  overflow: hidden;
 }
 .main-2-0 #text-swiper-section .text-swiper-section-wrapper__col {
   min-width: 392px;
@@ -862,6 +863,8 @@ body {
   background-repeat: no-repeat;
 }
 .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-next {
+  position: absolute;
+  left: 880px !important;
   height: 55px;
   width: 55px;
   right: 20px;

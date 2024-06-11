@@ -7,6 +7,7 @@
       flex-direction: row;
       margin: 110px auto 55px;
       max-width: 1380px;
+      overflow: hidden;
       &__col {
         min-width: 392px;
         width: 392px;
@@ -104,6 +105,8 @@
             }
           }
           .swiper-button-next.bundle-promo-swiper-next {
+            position: absolute;
+            left: 880px !important;
             height: 55px;
             width: 55px;
             right: 20px;
