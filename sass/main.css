@@ -1136,7 +1136,7 @@ body {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 70px 80px;
+  padding: 70px 80px 10px 80px;
   max-width: 1728px;
 }
 .footer-2-0 .footer-wrapper-top {
