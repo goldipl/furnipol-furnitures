@@ -320,6 +320,9 @@ body {
   margin: 0 auto;
   max-width: 1728px;
 }
+.main-2-0 #sale h2 {
+  margin-bottom: 40px;
+}
 .main-2-0 #sale #sale-slider {
   position: relative;
   margin-bottom: 55px;
