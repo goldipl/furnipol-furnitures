@@ -2,15 +2,19 @@
 body,
 html {
   margin: 0;
-  height: 100%;
+}
+
+@media (max-width: 760px) {
+  body:has(.main-2-0),
+  html:has(.main-2-0) {
+    overflow-x: hidden;
+  }
 }
 
 body {
+  font-family: Poppins, "Roboto", Tahoma, Verdana, Helvetica;
   background-color: $white;
-  background-repeat: repeat;
-  background-position: left top;
+  font-size: 9px;
   line-height: 15px;
   color: $furnipol_black;
-  font-size: 9px;
-  font-family: Poppins, "Roboto", Tahoma, Verdana, Helvetica;
 }
