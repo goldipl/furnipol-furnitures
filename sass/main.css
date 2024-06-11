@@ -574,7 +574,7 @@ body {
 .main-2-0 #garden-time .garden-time-swiper .garden-time-slot:hover .garden-time-slot__title {
   display: flex;
 }
-.main-2-0 #garden-time .garden-time-swiper .garden-time-slot:hover:hover .garden-time-slot__img::after {
+.main-2-0 #garden-time .garden-time-swiper .garden-time-slot:hover .garden-time-slot__img::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -618,43 +618,53 @@ body {
 }
 
 @media (max-width: 760px) {
-  .main-2-0 #garden-time .swiper-button-prev.garden-time-swiper-prev {
-    display: flex;
-    height: 55px;
-    width: 55px;
-    left: 65px;
-  }
-  .main-2-0 #garden-time .swiper-button-prev.garden-time-swiper-prev::after {
-    display: flex;
-    font-size: 0;
-    letter-spacing: 0;
-    font-variant: initial;
-    line-height: 1;
-    background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
-    height: 55px;
-    width: 55px;
-    font-size: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  .main-2-0 #garden-time .swiper-button-prev.garden-time-swiper-prev,
   .main-2-0 #garden-time .swiper-button-next.garden-time-swiper-next {
     display: flex;
     height: 55px;
     width: 55px;
-    right: 65px;
   }
+  .main-2-0 #garden-time .swiper-button-prev.garden-time-swiper-prev::after,
   .main-2-0 #garden-time .swiper-button-next.garden-time-swiper-next::after {
     display: flex;
     font-size: 0;
     letter-spacing: 0;
-    font-variant: initial;
     line-height: 1;
-    background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
-    height: 55px;
-    width: 55px;
-    font-size: 0;
     background-size: cover;
     background-repeat: no-repeat;
+    content: "";
+  }
+  .main-2-0 #garden-time .swiper-button-prev.garden-time-swiper-prev {
+    left: 10px;
+    background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg) no-repeat;
+  }
+  .main-2-0 #garden-time .swiper-button-next.garden-time-swiper-next {
+    right: 10px;
+    background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg) no-repeat;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot {
+    width: 100%;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__img {
+    width: 100%;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__img img {
+    width: 100%;
+    height: auto;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__title {
+    bottom: 10px;
+    left: 10px;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__title h3 {
+    font-size: 20px;
+  }
+  .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__title p {
+    font-size: 12px;
   }
 }
 .main-2-0 #welcome {
