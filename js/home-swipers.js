@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggleGardenTimeSwiper = () => {
     if (window.innerWidth < 760) {
       if (!gardenTimeSwiper) {
-        gardenTimeSwiper = new Swiper('.fav-cat-swiper', {
+        gardenTimeSwiper = new Swiper('.garden-time-swiper', {
           direction: 'horizontal',
           slidesPerView: 1,
           spaceBetween: 10,
