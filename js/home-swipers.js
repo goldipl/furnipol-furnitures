@@ -127,7 +127,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const bundle_swiper = new Swiper('.bundle-promo-swiper', {
     direction: 'horizontal',
-    loop: true,
+    slidesPerView: 4,
+    slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
     },
