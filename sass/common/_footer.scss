@@ -1,0 +1,133 @@
+.footer-2-0 {
+  background-color: $light_grey01;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 80px;
+    max-width: 1728px;
+    &-top {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 35px;
+      &-col {
+        width: 25%;
+        margin-right: 80px;
+        width: 276px;
+        &:nth-of-type(1) {
+          width: 375px;
+        }
+        &__logo {
+          display: flex;
+          margin: 0 0 24px 0;
+        }
+        &__text {
+          p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+            text-align: left;
+            margin: 0 0 31px 0;
+            color: $grey01;
+          }
+        }
+        &__socials {
+          p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: left;
+            margin: 0 0 6px 0;
+            color: $grey01;
+          }
+          a {
+            display: inline-flex;
+            flex-direction: row;
+            margin-right: 8px;
+          }
+        }
+        .footer-col-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          &__title {
+            h3 {
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 33px;
+              text-align: left;
+              color: $furnipol_black;
+              margin: 0 0 28px 0;
+            }
+          }
+          &__links {
+            display: flex;
+            flex-direction: column;
+            a {
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 19px;
+              text-align: left;
+              display: flex;
+              margin: 0 0 15px 0;
+              color: $furnipol_black;
+              text-decoration: none;
+              &:hover {
+                color: $furnipol_orange;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-middle {
+      padding: 30px 0;
+      width: 100%;
+      border-top: 1px solid $light_grey03;
+      border-bottom: 1px solid $light_grey03;
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+        text-align: center;
+        color: $furnipol_black;
+        margin: 0 0 10px 0;
+      }
+      .footer-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-slot {
+          margin-right: 59px;
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    &-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      padding: 14px 0;
+      p {
+        font-size: 9px;
+        font-weight: 300;
+        line-height: 13.5px;
+        text-align: left;
+        color: $furnipol_black;
+      }
+    }
+  }
+}
