@@ -1,0 +1,57 @@
+.main-2-0 {
+  #our-advantages {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    margin-top: 55px;
+    margin-bottom: 80px;
+
+    h2 {
+      margin-bottom: 80px;
+    }
+
+    .our-advantages {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 31px;
+      &-slot {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: $light_grey01;
+        width: 31%;
+        height: 151px;
+        border-radius: 16px;
+        padding: 18px;
+        box-sizing: border-box;
+
+        &:nth-of-type(3n) {
+          margin-right: 0;
+        }
+        &__icon {
+          margin-right: 25px;
+          img {
+            object-fit: contain;
+            height: 90px;
+            width: auto;
+            max-width: 100px;
+          }
+        }
+        &__text {
+          p {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 33px;
+            text-align: left;
+            color: $furnipol_black;
+            margin: 0 16px 0 0;
+          }
+        }
+      }
+    }
+  }
+}
