@@ -1019,11 +1019,15 @@ body {
 }
 .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form {
   display: flex;
+  flex-direction: column;
+}
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form input {
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input {
   all: unset;
   width: 373px;
   height: 60px;
@@ -1038,21 +1042,21 @@ body {
   border-radius: 7px;
   margin-right: 10px;
 }
-.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form input::-moz-placeholder {
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::-moz-placeholder {
   font-size: 17px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
   color: #25262b;
 }
-.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form input::placeholder {
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::placeholder {
   font-size: 17px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
   color: #25262b;
 }
-.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form button {
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box button {
   all: unset;
   display: flex;
   flex-direction: row;

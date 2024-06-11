@@ -743,14 +743,16 @@
                     </div>
                     <div class="newsletter-wrapper-content-right">
                         <form class="newsletter-form">
-                            <input type="email" name="newsletter" id="newsletter-input" class="newsletter-input" placeholder="e-mail" required="">
-                            <button class="newsletter-btn">Zapisz się</button>
+                            <div class="form-input-box">
+                                <input type="email" name="newsletter" id="newsletter-input" class="newsletter-input" placeholder="e-mail" required="">
+                                <button class="newsletter-btn">Zapisz się</button>
+                            </div>
+                            <div class="checkbox">
+                                <label class="custom-checkbox-container newsletter">Akceptuję <a href="">warunki newslettera</a><input type="checkbox" class="custom_input" required="">
+                                <span class="custom-checkbox-checkmark"></span>
+                                </label>
+                            </div>
                         </form>
-                        <div class="checkbox">
-                            <label class="custom-checkbox-container newsletter">Akceptuję <a href="">warunki newslettera</a><input type="checkbox" class="custom_input" required="">
-                            <span class="custom-checkbox-checkmark"></span>
-                            </label>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -761,7 +763,6 @@
         <div class="footer-wrapper">
             
         </div>
-
     </footer>
     <!-- jQuery v1.12.2 -->
     <script src="./js/jquery.min.js"></script>
