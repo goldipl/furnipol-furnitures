@@ -37,3 +37,5 @@ https://goldipl.github.io/furnipol-furnitures/
 ## Screenshots
 
 - Desktop & mobile version :desktop_computer: :iphone:
+
+![screenshot](./screenshots/screenshot01.jpg)
