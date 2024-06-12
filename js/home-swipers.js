@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const saleSwiper = new Swiper('.sale-swiper', {
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 6,
+    slidesPerView: 5,
     slidesPerGroup: 1,
     spaceBetween: 20,
     navigation: {
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     breakpoints: {
       1240: {
-        slidesPerView: 6,
+        slidesPerView: 5,
         spaceBetween: 20,
       },
       992: {
