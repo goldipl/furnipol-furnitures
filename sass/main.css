@@ -1208,6 +1208,86 @@ body {
 .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links a:hover {
   color: #eb7d3f;
 }
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot.phones .contact-slot-line {
+  display: inline-flex;
+  white-space: nowrap;
+  margin-bottom: 2px;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot.phones .contact-slot-line.hidden {
+  display: none;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot.phones .contact-slot__show-more {
+  font-size: 11px;
+  font-weight: 500;
+  text-align: left;
+  color: #a8a8a9;
+  cursor: pointer;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot.phones .arrow-down-show {
+  display: inline-flex;
+  margin-left: 4px;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot.phones .arrow-down-show.rotated {
+  transform: rotate(180deg);
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line .contact-slot__img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line .contact-slot__text {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: left;
+  color: #25262b;
+  margin: 0 15px;
+  min-width: 65px;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line .contact-slot__text a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: left;
+  color: #25262b;
+  text-decoration: none;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line .contact-slot__text a:hover {
+  color: #eb7d3f;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line .contact-slot__hours {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: left;
+  color: #25262b;
+  margin: 0;
+}
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact .contact-slot-line .spacer {
+  display: flex;
+  width: 14px;
+}
 .footer-2-0 .footer-wrapper-middle {
   padding: 30px 0;
   width: 100%;

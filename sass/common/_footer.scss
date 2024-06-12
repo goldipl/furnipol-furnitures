@@ -84,6 +84,85 @@
               }
             }
           }
+          &__contact {
+            display: flex;
+            flex-direction: column;
+            .contact-slot {
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 15px;
+              &.phones {
+                .contact-slot-line {
+                  display: inline-flex;
+                  white-space: nowrap;
+                  margin-bottom: 2px;
+                  &.hidden {
+                    display: none;
+                  }
+                }
+                .contact-slot__show-more {
+                  font-size: 11px;
+                  font-weight: 500;
+                  text-align: left;
+                  color: $light_grey02;
+                  cursor: pointer;
+                  margin: 0;
+                  user-select: none;
+                }
+                .arrow-down-show {
+                  display: inline-flex;
+                  margin-left: 4px;
+                  &.rotated {
+                    transform: rotate(180deg);
+                  }
+                }
+              }
+              &-line {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 5px;
+                .contact-slot__img {
+                  object-fit: contain;
+                }
+                .contact-slot__text {
+                  display: inline-flex;
+                  font-size: 14px;
+                  font-weight: 300;
+                  line-height: 19px;
+                  text-align: left;
+                  color: $grey01;
+                  margin: 0 15px;
+                  min-width: 65px;
+                  a {
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 19px;
+                    text-align: left;
+                    color: $grey01;
+                    text-decoration: none;
+                    &:hover {
+                      color: $furnipol_orange;
+                    }
+                  }
+                }
+                .contact-slot__hours {
+                  display: inline-flex;
+                  font-size: 14px;
+                  font-weight: 300;
+                  line-height: 19px;
+                  text-align: left;
+                  color: $grey01;
+                  margin: 0;
+                }
+                .spacer {
+                  display: flex;
+                  width: 14px;
+                }
+              }
+            }
+          }
         }
       }
     }
