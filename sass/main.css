@@ -91,12 +91,41 @@ body {
 }
 .main-2-0 #hero-swiper .hero-swiper .swiper-button-prev,
 .main-2-0 #hero-swiper .hero-swiper .swiper-button-next {
-  color: #eb7d3f;
+  display: none;
+}
+.main-2-0 #hero-swiper .hero-swiper.desktop-hero-swiper {
+  display: flex;
+}
+.main-2-0 #hero-swiper .hero-swiper.mobile-hero-swiper {
+  display: none;
 }
 .main-2-0 #hero-swiper .hero-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #eb7d3f;
 }
 
+@media (max-width: 760px) {
+  .main-2-0 #hero-swiper .hero-swiper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .main-2-0 #hero-swiper .hero-swiper.mobile-hero-swiper {
+    display: flex;
+    padding-bottom: 24px;
+  }
+  .main-2-0 #hero-swiper .hero-swiper.mobile-hero-swiper .swiper-slide img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .main-2-0 #hero-swiper .hero-swiper.mobile-hero-swiper .swiper-pagination {
+    bottom: 0;
+  }
+  .main-2-0 #hero-swiper .hero-swiper.desktop-hero-swiper {
+    display: none;
+  }
+}
 .main-2-0 #sale {
   width: 100%;
   margin: 0 auto;
@@ -930,6 +959,13 @@ body {
   margin: 0 0 80px 0;
 }
 
+@media (max-width: 760px) {
+  .main-2-0 h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0 0 45px 0;
+  }
+}
 .header-2-0 {
   display: flex;
   flex-direction: column;

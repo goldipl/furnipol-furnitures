@@ -6,10 +6,45 @@
       margin-bottom: 40px;
       .swiper-button-prev,
       .swiper-button-next {
-        color: $furnipol_orange;
+        display: none;
+      }
+      &.desktop-hero-swiper {
+        display: flex;
+      }
+      &.mobile-hero-swiper {
+        display: none;
       }
       .swiper-pagination-bullet.swiper-pagination-bullet-active {
         background-color: $furnipol_orange;
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .main-2-0 {
+    #hero-swiper {
+      .hero-swiper {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        &.mobile-hero-swiper {
+          display: flex;
+          padding-bottom: 24px;
+          .swiper-slide {
+            img {
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            }
+          }
+          .swiper-pagination {
+            bottom: 0;
+          }
+        }
+        &.desktop-hero-swiper {
+          display: none;
+        }
       }
     }
   }
