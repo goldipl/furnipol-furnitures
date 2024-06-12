@@ -1473,6 +1473,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   height: 45px;
+  text-decoration: none;
 }
 .tapbar-2-0 .tapbar-wrapper-slot .cart-quantity {
   position: absolute;
