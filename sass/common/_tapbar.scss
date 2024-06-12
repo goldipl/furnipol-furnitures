@@ -1,0 +1,71 @@
+.tapbar-2-0 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 67px;
+  width: 100%;
+  box-shadow: 0px -2px 5px 0px #0000000a;
+  background-color: $light_grey01;
+  z-index: 999999999999;
+  .tapbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 67px;
+    width: 100%;
+    &-slot {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 45px;
+      .cart-quantity {
+        position: absolute;
+        top: -4px;
+        right: -6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 16px;
+        width: auto;
+        min-width: 16px;
+        background-color: $furnipol_orange;
+        border-radius: 100%;
+        span {
+          font-size: 10px;
+          font-weight: 500;
+          color: $white;
+          padding: 4px;
+          margin: 0;
+        }
+      }
+      &.hamburger {
+        span {
+          color: $furnipol_orange;
+        }
+      }
+      &__icon {
+        img {
+          height: 28px;
+          width: auto;
+          object-fit: contain;
+          margin-top: 2px;
+          margin-bottom: 5px;
+        }
+      }
+      &__text {
+        span {
+          font-size: 8px;
+          font-weight: 600;
+          line-height: 12px;
+          text-align: left;
+          color: $grey01;
+          margin: 0;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
