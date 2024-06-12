@@ -1515,6 +1515,11 @@ body {
   text-transform: capitalize;
 }
 
+@media (min-width: 761px) {
+  .tapbar-2-0 {
+    display: none;
+  }
+}
 * {
   font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */
