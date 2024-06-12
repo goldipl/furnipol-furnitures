@@ -29,6 +29,7 @@
         text-decoration: none;
         width: 15% !important;
         margin-right: 0 !important;
+        min-height: 260px;
         &:hover {
           border: 1px solid $light_grey03;
         }

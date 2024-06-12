@@ -290,6 +290,7 @@ body {
   text-decoration: none;
   width: 15% !important;
   margin-right: 0 !important;
+  min-height: 260px;
 }
 .main-2-0 #favourite-categories .favourite-categories-slot:hover {
   border: 1px solid #d9d9d9;
