@@ -14,6 +14,9 @@
       &.mobile-hero-swiper {
         display: none;
       }
+      .swiper-pagination {
+        display: none;
+      }
     }
   }
 }
@@ -41,6 +44,8 @@
             }
           }
           .swiper-pagination {
+            display: flex;
+            justify-content: center;
             bottom: 0;
           }
         }
