@@ -858,6 +858,42 @@ body {
   margin: 0 16px 0 0;
 }
 
+@media (max-width: 760px) {
+  .main-2-0 #our-advantages {
+    max-width: unset;
+  }
+  .main-2-0 #our-advantages h2 {
+    margin-bottom: 18px;
+  }
+  .main-2-0 #our-advantages .our-advantages {
+    gap: 2%;
+  }
+  .main-2-0 #our-advantages .our-advantages-slot {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 46%;
+    height: 170px;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+  }
+  .main-2-0 #our-advantages .our-advantages-slot__icon {
+    margin-right: 0;
+  }
+  .main-2-0 #our-advantages .our-advantages-slot__icon img {
+    height: 60px;
+    max-width: 60px;
+  }
+  .main-2-0 #our-advantages .our-advantages-slot__text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #0f0f0f;
+    margin: 8px 0 0 0;
+    width: 80%;
+  }
+}
 .main-2-0 #reviews-section {
   position: relative;
   display: block;

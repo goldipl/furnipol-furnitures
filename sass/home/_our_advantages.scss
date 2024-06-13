@@ -55,3 +55,47 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .main-2-0 {
+    #our-advantages {
+      max-width: unset;
+
+      h2 {
+        margin-bottom: 18px;
+      }
+
+      .our-advantages {
+        gap: 2%;
+        &-slot {
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          width: 46%;
+          height: 170px;
+          padding: 16px 32px;
+          box-sizing: border-box;
+          margin-bottom: 2%;
+
+          &__icon {
+            margin-right: 0;
+            img {
+              height: 60px;
+              max-width: 60px;
+            }
+          }
+          &__text {
+            p {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 21px;
+              color: $furnipol_black;
+              margin: 8px 0 0 0;
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
