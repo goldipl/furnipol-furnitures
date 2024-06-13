@@ -139,6 +139,19 @@ document.addEventListener('DOMContentLoaded', () => {
       nextEl: '.swiper-button-next.bundle-promo-swiper-next',
       prevEl: '.swiper-button-prev.bundle-promo-swiper-prev',
     },
+    breakpoints: {
+            760: {
+              slidesPerView: 4,
+              slidesPerGroup: 1,
+            },
+            200: {
+              slidesPerView: 'auto',
+              centeredSlides: true,
+              slidesPerView: 1,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+          },
   });
 
 });
