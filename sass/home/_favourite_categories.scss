@@ -63,52 +63,20 @@
   .main-2-0 {
     #favourite-categories {
       .swiper-button-prev.fav-swiper-prev {
-        display: flex;
-        height: 55px;
-        width: 55px;
-        left: 65px;
-        &::after {
-          display: flex;
-          font-size: 0;
-          letter-spacing: 0;
-          font-variant: initial;
-          line-height: 1;
-          background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
-          height: 55px;
-          width: 55px;
-          font-size: 0;
-          background-size: cover;
-          background-repeat: no-repeat;
-        }
+        display: none;
       }
       .swiper-button-next.fav-swiper-next {
-        display: flex;
-        height: 55px;
-        width: 55px;
-        right: 65px;
-        &::after {
-          display: flex;
-          font-size: 0;
-          letter-spacing: 0;
-          font-variant: initial;
-          line-height: 1;
-          background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
-          height: 55px;
-          width: 55px;
-          font-size: 0;
-          background-size: cover;
-          background-repeat: no-repeat;
-        }
+        display: none;
       }
       .favourite-categories {
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         gap: 0;
         &-slot {
-          width: 90% !important;
+          width: 50% !important;
           &:hover {
-            border: 1px solid $light_grey03;
+            border: unset;
           }
           &__img {
             img {
@@ -124,9 +92,9 @@
             width: 80%;
             h3 {
               display: inline-flex;
-              font-size: 20px;
+              font-size: 12px;
               font-weight: 500;
-              line-height: 30px;
+              line-height: 18px;
               text-align: center;
               color: $furnipol_black;
             }

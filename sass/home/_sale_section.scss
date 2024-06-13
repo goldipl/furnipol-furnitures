@@ -179,6 +179,14 @@
         text-align: left;
         margin: 0 20px 8px;
       }
+      #sale-slider {
+        .swiper-button-prev {
+          display: none;
+        }
+        .swiper-button-next {
+          display: none;
+        }
+      }
     }
   }
 }
