@@ -9,6 +9,9 @@ html {
   html:has(.main-2-0) {
     overflow-x: hidden;
   }
+  body {
+    margin-bottom: 67px;
+  }
 }
 body {
   font-family: Poppins, "Roboto", Tahoma, Verdana, Helvetica;
