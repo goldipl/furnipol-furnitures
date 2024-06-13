@@ -592,6 +592,7 @@ body {
 @media (max-width: 760px) {
   .main-2-0 #welcome .welcome-text {
     flex-direction: column;
+    margin: 0 20px;
   }
   .main-2-0 #welcome .welcome-text__col {
     width: 100%;
