@@ -1074,7 +1074,7 @@ body {
   .main-2-0 #newsletter-section .newsletter-wrapper {
     flex-direction: column;
     max-width: unset;
-    padding: 40px 0;
+    padding: 40px 20px;
   }
   .main-2-0 #newsletter-section .newsletter-wrapper-img {
     display: none;
@@ -1519,7 +1519,6 @@ body {
   padding-bottom: 35px;
 }
 .footer-2-0 .footer-wrapper-top-col {
-  width: 25%;
   margin-right: 80px;
   width: 276px;
 }
@@ -1705,6 +1704,83 @@ body {
   color: #0f0f0f;
 }
 
+@media (max-width: 760px) {
+  .footer-2-0 .footer-wrapper {
+    padding: 70px 0 0 0;
+    max-width: unset;
+  }
+  .footer-2-0 .footer-wrapper-top {
+    flex-direction: column;
+    padding-bottom: 16px;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+  .footer-2-0 .footer-wrapper-top-col {
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col:nth-of-type(1) {
+    width: 100%;
+  }
+  .footer-2-0 .footer-wrapper-top-col__socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 24px 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col__socials p {
+    text-align: center;
+    margin: 0 0 12px 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col__socials a {
+    margin-right: 16px;
+  }
+  .footer-2-0 .footer-wrapper-top-col__socials a:last-of-type {
+    margin-right: 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 14px 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links a {
+    margin: 0 0 8px 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links a:last-of-type {
+    margin: 0 0 16px 0;
+  }
+  .footer-2-0 .footer-wrapper-middle {
+    padding: 30px 0;
+    width: 100%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .footer-2-0 .footer-wrapper-middle p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    color: #0f0f0f;
+    margin: 0 0 10px 0;
+  }
+  .footer-2-0 .footer-wrapper-middle .footer-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-2-0 .footer-wrapper-middle .footer-logos-slot {
+    margin-right: 0;
+    width: 33%;
+    text-align: center;
+  }
+  .footer-2-0 .footer-wrapper-bottom {
+    justify-content: center;
+  }
+}
 .tapbar-2-0 {
   position: fixed;
   bottom: 0;
