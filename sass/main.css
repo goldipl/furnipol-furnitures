@@ -1717,6 +1717,7 @@ body {
   line-height: 13.5px;
   text-align: left;
   color: #0f0f0f;
+  margin: 0;
 }
 
 @media (max-width: 760px) {
