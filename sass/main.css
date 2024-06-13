@@ -1846,7 +1846,12 @@ body {
 .tapbar-2-0 .tapbar-wrapper-slot.hamburger span {
   color: #eb7d3f;
 }
+.tapbar-2-0 .tapbar-wrapper-slot__icon {
+  display: flex;
+  height: 35px;
+}
 .tapbar-2-0 .tapbar-wrapper-slot__icon img {
+  display: flex;
   height: 28px;
   width: auto;
   -o-object-fit: contain;

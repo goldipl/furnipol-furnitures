@@ -48,7 +48,10 @@
         }
       }
       &__icon {
+        display: flex;
+        height: 35px;
         img {
+          display: flex;
           height: 28px;
           width: auto;
           object-fit: contain;
