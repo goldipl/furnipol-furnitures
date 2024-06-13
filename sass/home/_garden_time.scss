@@ -16,6 +16,9 @@
     }
 
     .garden-time-swiper {
+      .swiper-pagination {
+        display: none;
+      }
       .garden-time {
         display: grid;
         grid-column-gap: 24px;
@@ -177,6 +180,9 @@
           }
         }
         .swiper-pagination {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           bottom: 0;
         }
       }

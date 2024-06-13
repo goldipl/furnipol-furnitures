@@ -5,6 +5,9 @@
     margin: 0 auto;
     max-width: 1380px;
     margin-bottom: 55px;
+    .swiper-pagination {
+      display: none;
+    }
     .swiper-button-next.fav-swiper-next,
     .swiper-button-prev.fav-swiper-prev {
       display: none;
@@ -67,6 +70,12 @@
       }
       .swiper-button-next.fav-swiper-next {
         display: none;
+      }
+      .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
       }
       .favourite-categories {
         flex-wrap: nowrap;
