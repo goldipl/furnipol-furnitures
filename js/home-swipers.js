@@ -56,7 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!favSwiper) {
         favSwiper = new Swiper('.fav-cat-swiper', {
           direction: 'horizontal',
-          slidesPerView: 1,
+          slidesPerView: 2,
+          slidesPerGroup: 2,
           spaceBetween: 10,
           navigation: {
             nextEl: '.swiper-button-next.fav-swiper-next',
@@ -67,13 +68,10 @@ document.addEventListener('DOMContentLoaded', () => {
             clickable: true,
           },
           breakpoints: {
-            760: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
             200: {
-              slidesPerView: 1,
-              spaceBetween: 15,
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 10,
             },
           },
         });
@@ -113,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             200: {
               slidesPerView: 1,
-              spaceBetween: 15,
+              spaceBetween: 0,
             },
           },
         });
