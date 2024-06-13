@@ -51,6 +51,7 @@
         box-sizing: border-box;
         &::placeholder {
           font-size: 16px;
+          color: $light_grey02;
         }
         &:hover,
         &:focus,
@@ -296,6 +297,7 @@
         input {
           width: 100%;
           height: 40px;
+          padding: 0 60px 0 20px;
         }
         button {
           right: 14px;
