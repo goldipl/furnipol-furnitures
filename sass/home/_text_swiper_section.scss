@@ -144,3 +144,84 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .main-2-0 {
+    #text-swiper-section {
+      position: relative;
+      padding: 56px 20px 116px;
+      margin-top: -16px;
+      .text-swiper-section-wrapper {
+        flex-direction: column;
+        margin: 0;
+        max-width: unset;
+        &__col {
+          min-width: unset;
+          width: auto;
+          margin-right: 0;
+          h2 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: left;
+            margin: 0 0 8px;
+            width: 50%;
+          }
+          p {
+            margin: 0 0 40px 0;
+          }
+          .text-swiper-btn {
+            position: absolute;
+            left: 20px;
+            bottom: 24px;
+          }
+        }
+        &__swiper {
+          .bundle-promo-swiper {
+            .bundle-promo-slot {
+              position: relative;
+              text-decoration: none;
+              border-radius: 16px !important;
+              width: 80% !important;
+              margin-right: 20px !important;
+              overflow: hidden;
+
+              &__img {
+                position: relative;
+                border-radius: 16px;
+                width: max-content;
+
+                img {
+                  border-radius: 16px;
+                  object-fit: cover;
+                }
+              }
+
+              &__title {
+                display: flex;
+                left: 24px;
+              }
+              .bundle-promo-slot__img::after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                content: "";
+                box-shadow: 0px -100px 75px -31px #0000009c inset;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                border-radius: 16px;
+              }
+            }
+            .swiper-button-prev.bundle-promo-swiper-prev {
+              display: none;
+            }
+            .swiper-button-next.bundle-promo-swiper-next {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
