@@ -301,6 +301,15 @@ body {
      object-fit: contain;
 }
 
+@media (max-width: 760px) {
+  .main-2-0 #sale h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin: 0 20px 8px;
+  }
+}
 .main-2-0 #favourite-categories {
   position: relative;
   width: 100%;
@@ -967,9 +976,11 @@ body {
 
 @media (max-width: 760px) {
   .main-2-0 h2 {
-    font-size: 30px;
-    line-height: 45px;
-    margin: 0 0 8px 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin: 0 20px 8px;
   }
 }
 .header-2-0 {

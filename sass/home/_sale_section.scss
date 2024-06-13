@@ -168,3 +168,17 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .main-2-0 {
+    #sale {
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        margin: 0 20px 8px;
+      }
+    }
+  }
+}
