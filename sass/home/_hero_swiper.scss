@@ -14,11 +14,13 @@
       &.mobile-hero-swiper {
         display: none;
       }
-      .swiper-pagination-bullet.swiper-pagination-bullet-active {
-        background-color: $furnipol_orange;
-      }
     }
   }
+}
+
+// Global swiper style
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: $furnipol_orange;
 }
 
 @media (max-width: 760px) {

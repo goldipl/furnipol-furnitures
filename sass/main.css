@@ -99,7 +99,8 @@ body {
 .main-2-0 #hero-swiper .hero-swiper.mobile-hero-swiper {
   display: none;
 }
-.main-2-0 #hero-swiper .hero-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #eb7d3f;
 }
 

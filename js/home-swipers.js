@@ -21,6 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesPerView: 5,
     slidesPerGroup: 1,
     spaceBetween: 20,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
     navigation: {
       nextEl: '.swiper-button-next.sale-swiper-next',
       prevEl: '.swiper-button-prev.sale-swiper-prev',
@@ -131,6 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
     navigation: {
       nextEl: '.swiper-button-next.bundle-promo-swiper-next',
