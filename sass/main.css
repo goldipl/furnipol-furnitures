@@ -937,12 +937,11 @@ body {
   text-align: left;
   margin: 0 10px 0 0;
 }
-.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2.upper {
+.main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2.first-text {
   font-size: 22px;
   font-weight: 500;
   line-height: 33px;
   text-align: left;
-  text-transform: uppercase;
   margin: 0;
 }
 .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2 span {
@@ -996,6 +995,7 @@ body {
   padding: 0 22px;
   border-radius: 7px;
   margin-right: 10px;
+  border: 1px solid #25262b;
 }
 .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::-moz-placeholder {
   font-size: 17px;
@@ -1070,6 +1070,138 @@ body {
   color: #eb7d3f;
 }
 
+@media (max-width: 760px) {
+  .main-2-0 #newsletter-section .newsletter-wrapper {
+    flex-direction: column;
+    max-width: unset;
+    padding: 40px 0;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-img {
+    display: none;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-left {
+    margin-left: 0;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+    margin: 0 0 10px 0;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2.first-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2 span {
+    margin-left: 8px;
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-bottom p {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-bottom p span {
+    display: inline-flex;
+    margin: 0 12px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right {
+    width: 100%;
+    margin-top: 6px;
+    margin-left: 0;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+    color: #25262b;
+    padding: 0 19px;
+    margin-right: 7px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::-moz-placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #a8a8a9;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #a8a8a9;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box button {
+    display: flex;
+    padding: 0 25px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    box-sizing: border-box;
+    white-space: pre;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-checkmark {
+    width: 17px;
+    height: 17px;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-checkmark::after {
+    left: 6px;
+    top: -5px;
+    width: 8px;
+    height: 18px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    color: #25262b;
+    padding-left: 24px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container a {
+    display: inline-flex;
+    margin-left: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: left;
+    color: #25262b;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container a:hover {
+    text-decoration: none;
+    color: #eb7d3f;
+  }
+}
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
