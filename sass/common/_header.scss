@@ -272,6 +272,7 @@
 @media (max-width: 760px) {
   .header-2-0 {
     height: 109px;
+
     .top-header-wrapper {
       max-width: unset;
     }
@@ -311,6 +312,8 @@
 
     .bottom-header {
       border-top: 1px solid $white;
+      box-shadow: 0px 4px 6px -1px #0000001a;
+
       &-nav {
         justify-content: flex-start;
         overflow-x: scroll;
