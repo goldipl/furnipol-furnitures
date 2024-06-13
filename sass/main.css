@@ -529,6 +529,8 @@ body {
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot {
     width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot .garden-time-slot__img::after {
     position: absolute;
@@ -550,8 +552,8 @@ body {
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__title {
     display: flex;
-    bottom: 10px;
-    left: 10px;
+    bottom: 16px;
+    left: 26px;
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time .garden-time-slot__title h3 {
     font-size: 20px;

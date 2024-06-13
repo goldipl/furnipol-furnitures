@@ -137,6 +137,8 @@
 
           .garden-time-slot {
             width: 100%;
+            padding: 0 10px;
+            box-sizing: border-box;
 
             .garden-time-slot__img::after {
               position: absolute;
@@ -161,8 +163,8 @@
 
             &__title {
               display: flex;
-              bottom: 10px;
-              left: 10px;
+              bottom: 16px;
+              left: 26px;
 
               h3 {
                 font-size: 20px;
