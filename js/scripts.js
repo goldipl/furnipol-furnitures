@@ -1,11 +1,15 @@
 // Hamburger menu
 $(document).ready(function(){
-	const currentYear = new Date().getFullYear();
 	$('.header-2-0 .hamburger-menu').click(function(){
 		$(this).toggleClass('open');
 	});
+});  
+
+// Footer year
+$(document).ready(function(){
+	const currentYear = new Date().getFullYear();
 	$('footer .footer-wrapper-bottom span').text(currentYear);
-});                                                                        
+});  
 
 // Toggling show more telephones on desktop
 $(document).ready(function() {
