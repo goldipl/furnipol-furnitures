@@ -1415,7 +1415,6 @@ body {
 .header-2-0 .bottom-header-nav__el {
   height: 49px;
   box-sizing: border-box;
-  padding: 14px 24px;
   cursor: pointer;
   border-right: 2px solid #ffffff;
   border-bottom: 4px solid rgba(255, 255, 255, 0);
@@ -1430,10 +1429,127 @@ body {
   border-right: 0;
 }
 .header-2-0 .bottom-header-nav__el span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
   text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  height: 188px;
+  margin: auto;
+  max-width: 1728px;
+  position: absolute;
+  top: 127px;
+  left: calc((100vw - 1744px) / 2);
+  z-index: 2;
+  background-color: #ffffff;
+  padding: 0px 154px;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper.active {
+  display: flex;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper {
+  width: 100vw !important;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper {
+  width: 100%;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-wrapper,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-wrapper,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper {
+  width: 100%;
+  max-width: 1428px;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-wrapper .swiper-slide a,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-wrapper .swiper-slide a,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper .swiper-slide a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-wrapper .swiper-slide a img,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-wrapper .swiper-slide a img,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper .swiper-slide a img {
+  margin-bottom: 13px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-radius: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-wrapper .swiper-slide a span,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-wrapper .swiper-slide a span,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper .swiper-slide a span {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  color: #0f0f0f;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-next,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-next,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-next {
+  position: absolute;
+  right: 40px;
+  height: 55px;
+  width: 55px;
+  right: 20px;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-next::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-next::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-next::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-prev,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-prev,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-prev {
+  height: 55px;
+  width: 55px;
+  left: 40px;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-prev::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-prev::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-prev::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 760px) {
