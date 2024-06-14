@@ -1425,6 +1425,10 @@ body {
 .header-2-0 .bottom-header-nav__el.sale span {
   color: #eb7d3f;
 }
+.header-2-0 .bottom-header-nav__el.sale span a {
+  color: #eb7d3f;
+  text-decoration: none;
+}
 .header-2-0 .bottom-header-nav__el:last-of-type {
   border-right: 0;
 }
@@ -1432,7 +1436,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 14px 24px;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
@@ -1440,6 +1443,25 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  color: #0f0f0f;
+}
+.header-2-0 .bottom-header-nav__el span.without-link {
+  padding: 14px 24px;
+}
+.header-2-0 .bottom-header-nav__el span a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 14px 24px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  color: #0f0f0f;
 }
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper {
   display: none;
@@ -1459,7 +1481,14 @@ body {
   display: flex;
 }
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw !important;
+  max-width: 600px;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-wrapper .swiper-slide {
+  max-width: 200px !important;
 }
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper,
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper,

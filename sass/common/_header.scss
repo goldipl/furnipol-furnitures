@@ -197,6 +197,10 @@
         &.sale {
           span {
             color: $furnipol_orange;
+            a {
+              color: $furnipol_orange;
+              text-decoration: none;
+            }
           }
         }
         &:last-of-type {
@@ -206,12 +210,28 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 14px 24px;
           font-size: 14px;
           font-weight: 700;
           line-height: 21px;
           text-transform: uppercase;
           user-select: none;
+          color: $furnipol_black;
+          &.without-link {
+            padding: 14px 24px;
+          }
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21px;
+            padding: 14px 24px;
+            text-transform: uppercase;
+            user-select: none;
+            text-decoration: none;
+            color: $furnipol_black;
+          }
         }
       }
       .bottom-header-nav__wrapper {
@@ -232,7 +252,14 @@
         }
         .menu-available-swiper {
           .swiper-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 100vw !important;
+            max-width: 600px;
+            .swiper-slide {
+              max-width: 200px !important;
+            }
           }
         }
         .menu-furnitures-swiper,
