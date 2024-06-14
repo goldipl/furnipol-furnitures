@@ -1372,8 +1372,6 @@ body {
   height: 28px;
   position: relative;
   margin: auto;
-  transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
   cursor: pointer;
   margin-left: 45px;
 }
@@ -1386,34 +1384,15 @@ body {
   border-radius: 4px;
   opacity: 1;
   left: 0;
-  transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
 }
 .header-2-0 .top-header__buttons .hamburger-menu span:nth-child(1) {
   top: 0px;
-  transform-origin: left center;
 }
 .header-2-0 .top-header__buttons .hamburger-menu span:nth-child(2) {
   top: 12px;
-  transform-origin: left center;
 }
 .header-2-0 .top-header__buttons .hamburger-menu span:nth-child(3) {
   top: 24px;
-  transform-origin: left center;
-}
-.header-2-0 .top-header__buttons .hamburger-menu.open span:nth-child(1) {
-  transform: rotate(45deg);
-  top: 3px;
-  left: 5px;
-}
-.header-2-0 .top-header__buttons .hamburger-menu.open span:nth-child(2) {
-  width: 0%;
-  opacity: 0;
-}
-.header-2-0 .top-header__buttons .hamburger-menu.open span:nth-child(3) {
-  transform: rotate(-45deg);
-  top: 22px;
-  left: 5px;
 }
 .header-2-0 .bottom-header {
   display: flex;
@@ -1871,7 +1850,7 @@ body {
 }
 
 @media (min-width: 761px) {
-  .header-2-0 .tapbar-2-0 {
+  .header-2-0 .tapbar {
     display: none;
   }
 }
