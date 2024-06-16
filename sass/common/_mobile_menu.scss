@@ -156,12 +156,14 @@ html.body-locked {
             line-height: 18px;
             text-align: left;
             color: $grey01;
+            background-color: $white;
             option {
               font-size: 12px;
               font-weight: 500;
               line-height: 18px;
               text-align: left;
               color: $grey01;
+              background-color: $white;
             }
             &:hover,
             &:focus,

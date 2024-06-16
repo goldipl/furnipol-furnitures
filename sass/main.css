@@ -2160,6 +2160,7 @@ html.body-locked {
   line-height: 18px;
   text-align: left;
   color: #25262b;
+  background-color: #ffffff;
 }
 .header-2-0 .mobile-menu-wrapper__content-lang-select .lang-select__select option {
   font-size: 12px;
@@ -2167,6 +2168,7 @@ html.body-locked {
   line-height: 18px;
   text-align: left;
   color: #25262b;
+  background-color: #ffffff;
 }
 .header-2-0 .mobile-menu-wrapper__content-lang-select .lang-select__select:hover, .header-2-0 .mobile-menu-wrapper__content-lang-select .lang-select__select:focus, .header-2-0 .mobile-menu-wrapper__content-lang-select .lang-select__select:active {
   border: 1px solid #25262b;
