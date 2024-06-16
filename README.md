@@ -36,12 +36,16 @@ https://goldipl.github.io/furnipol-furnitures/
 
 ## Screenshots
 
-- Desktop & mobile version :desktop_computer: :iphone:
+`Desktop & mobile version` :desktop_computer: :iphone:
 
-  - Main Page
+- Main Page
 
 ![screenshot](./screenshots/screenshot01.jpg)
 
-    - Expanded Desktop Menu
+- Expanded Desktop Menu
 
 ![screenshot](./screenshots/screenshot02.jpg)
+
+- Expanded Mobile Menu
+
+![screenshot](./screenshots/screenshot03.jpg)
