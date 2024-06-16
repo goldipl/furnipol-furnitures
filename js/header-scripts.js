@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 $(document).ready(function() {
-  $('.header-2-0 .bottom-header-nav__el span').on('click', function() {
+  if ($(window).width() > 760) {
+    $('.header-2-0 .bottom-header-nav__el span').on('click', function() {
       var $wrapper = $(this).siblings('.bottom-header-nav__wrapper');
 
       // Remove the active class from all .bottom-header-nav__wrapper elements
@@ -50,7 +51,9 @@ $(document).ready(function() {
 
       // Reset the click state for other span elements
       $('.header-2-0 .bottom-header-nav__el span').not(this).data('clicked', false);
-  });
+    });
+  }
 });
+
 
 
