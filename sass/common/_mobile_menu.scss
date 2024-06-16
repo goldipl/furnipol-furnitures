@@ -1,13 +1,20 @@
+body.body-locked,
+html.body-locked {
+  overflow: hidden;
+}
+
 .header-2-0 {
   .mobile-menu {
-    display: none;
+    display: flex;
     position: fixed;
     width: 100%;
     height: 100%;
     background-color: $white;
     z-index: 9999999999999;
+    transform: translateX(-100%);
+    transition: 0.4s;
     &.active {
-      display: flex;
+      transform: translateX(0);
     }
     &-wrapper {
       display: flex;
@@ -34,6 +41,175 @@
         }
         img {
           cursor: pointer;
+        }
+      }
+      &__content {
+        overflow-y: scroll;
+        &-search-box {
+          position: relative;
+          margin: 20px 24px;
+          width: calc(100% - 48px);
+          height: 44px;
+          border-radius: 7px;
+          box-sizing: border-box;
+          input {
+            all: unset;
+            width: 100%;
+            height: 44px;
+            background-color: $white;
+            border-radius: 8px;
+            border: 1px solid $light_grey02;
+            padding: 0 60px 0 27px;
+            font-size: 16px;
+            color: $grey01;
+            box-sizing: border-box;
+            &::placeholder {
+              font-size: 16px;
+              color: $light_grey02;
+            }
+            &:hover,
+            &:focus,
+            &:active {
+              border: 1px solid $grey01;
+              outline: unset;
+            }
+          }
+          button {
+            all: unset;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+          }
+        }
+        &-menu-list {
+          .hr-menu-divider {
+            margin: 0;
+          }
+          .mobile-menu-list__slot {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 24px;
+            border-top: 1px solid $light_grey01;
+            a {
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 33px;
+              text-align: left;
+              color: $grey01;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            .arrow-menu-box {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 100%;
+              > span {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 33px;
+                text-align: left;
+                color: $grey01;
+              }
+              img {
+                margin-right: -10px;
+              }
+            }
+            .menu-inner-second-lvl {
+              display: none;
+            }
+            .mobile-menu-img-wrapper {
+              display: none;
+            }
+          }
+        }
+        &-lang-select {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          padding: 24px 22px;
+          border-top: 1px solid $light_grey01;
+          .lang-select__text {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 33px;
+            text-align: left;
+            color: $furnipol_black;
+            margin: 0;
+          }
+          .lang-select__select {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 38px;
+            border-radius: 7px;
+            border: 1px solid $light_grey03;
+            padding: 0 20px;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: left;
+            color: $grey01;
+            option {
+              font-size: 12px;
+              font-weight: 500;
+              line-height: 18px;
+              text-align: left;
+              color: $grey01;
+            }
+            &:hover,
+            &:focus,
+            &:active {
+              border: 1px solid $grey01;
+              outline: unset;
+            }
+          }
+        }
+        &-contact {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          padding: 24px 22px;
+          strong {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: $grey01;
+            margin: 0;
+          }
+          p {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            color: $grey01;
+            margin: 0 0 12px 0;
+            img {
+              display: flex;
+              margin-right: 10px;
+              object-fit: contain;
+            }
+            a {
+              font-size: 16px;
+              font-weight: 300;
+              line-height: 26px;
+              text-align: left;
+              color: $grey01;
+              text-decoration: none;
+            }
+          }
         }
       }
     }
