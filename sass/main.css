@@ -1999,6 +1999,46 @@ body {
     display: none;
   }
 }
+.header-2-0 .mobile-menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 9999999999999;
+}
+.header-2-0 .mobile-menu.active {
+  display: flex;
+}
+.header-2-0 .mobile-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header-2-0 .mobile-menu-wrapper__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 74px;
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+  box-shadow: 2px 5px 2px 0px rgba(0, 0, 0, 0);
+  padding: 15px;
+  box-sizing: border-box;
+}
+.header-2-0 .mobile-menu-wrapper__top h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  color: #0f0f0f;
+  margin: 0 0 0 6px;
+}
+.header-2-0 .mobile-menu-wrapper__top img {
+  cursor: pointer;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */
