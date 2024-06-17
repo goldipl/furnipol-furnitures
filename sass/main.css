@@ -2086,6 +2086,7 @@ html.body-locked {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100%;
 }
 .header-2-0 .mobile-menu-wrapper__top {
   display: flex;
