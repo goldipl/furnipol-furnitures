@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	const header = document.querySelector('.header-2-0 .top-header');
 	const headerOffset = header.offsetTop;
 
-	window.addEventListener('scroll', function() {
-		if (window.pageYOffset > headerOffset) {
+	window.addEventListener('scroll', () => {
+		if (window.scrollY > headerOffset) {
 			header.classList.add('fixed-header');
 		} else {
 			header.classList.remove('fixed-header');
