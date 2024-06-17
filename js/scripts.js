@@ -1,9 +1,13 @@
 // Hamburger menu
 $(document).ready(function(){
-	$('.header-2-0 .hamburger-menu').click(function(){
-		$(this).toggleClass('open');
-	});
-});  
+    $('.header-2-0 .hamburger-menu').click(function(){
+        $(this).toggleClass('open');
+        $('.header-2-0 .mobile-menu').addClass('active');
+        $('body').addClass('body-locked');
+        $('html').addClass('body-locked');
+    });
+});
+
 
 // Footer year
 $(document).ready(function(){
