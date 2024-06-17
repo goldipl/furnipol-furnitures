@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     direction: 'horizontal',
     slidesPerView: 4,
     slidesPerGroup: 1,
+    freeMode: true,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -148,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
               slidesPerView: 'auto',
               centeredSlides: true,
               slidesPerView: 1,
-              slidesPerGroup: 1,
+              slidesPerGroup: 2,
               spaceBetween: 20,
             },
           },
