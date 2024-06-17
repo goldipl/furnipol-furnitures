@@ -55,5 +55,23 @@ $(document).ready(function() {
   }
 });
 
+// 2nd level expanded menu
+document.addEventListener('DOMContentLoaded', () => {
+  const menuItems = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot.without-link');
+
+  menuItems.forEach(item => {
+      item.addEventListener('click', () => {
+          const childMenu = item.querySelector('.menu-inner-second-lvl');
+          if (childMenu) {
+              childMenu.classList.add('active');
+          }
+          const childMenuImgs = item.querySelector('.mobile-menu-img-wrapper');
+          if (childMenuImgs) {
+            childMenuImgs.classList.add('active');
+          }
+      });
+  });
+});
+
 
 
