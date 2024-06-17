@@ -4,8 +4,34 @@ html.body-locked {
 }
 
 .header-2-0 {
+  /* For Webkit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar-thumb {
+    background-color: $light_grey02;
+    width: 5px;
+    height: 5px;
+  }
+
+  /* For Firefox */
+  ::-moz-scrollbar-thumb {
+    background-color: $light_grey02;
+    width: 5px;
+    height: 5px;
+  }
+
+  /* For Internet Explorer and Edge */
+  ::-ms-thumb {
+    background-color: $light_grey02;
+    width: 5px;
+    height: 5px;
+  }
+
+  /* For standard scrollbars (if supported) */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
   .mobile-menu {
-    display: flex;
+    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -14,6 +40,7 @@ html.body-locked {
     transform: translateX(-100%);
     transition: 0.4s;
     &.active {
+      display: flex;
       transform: translateX(0);
     }
     &-wrapper {
@@ -92,8 +119,16 @@ html.body-locked {
             justify-content: flex-start;
             align-items: center;
             padding: 10px 24px;
-            border-top: 1px solid $light_grey01;
+            border-bottom: 1px solid $light_grey01;
             width: 100%;
+            cursor: pointer;
+            &:first-of-type {
+              border-top: 1px solid $light_grey01;
+            }
+            &:hover {
+              background-color: $light_grey01;
+              border-bottom: 1px solid $light_grey02;
+            }
             > strong {
               display: flex;
               width: 100%;
@@ -121,11 +156,15 @@ html.body-locked {
               justify-content: space-between;
               width: 100%;
               > span {
+                display: flex;
+                width: 100%;
+                cursor: pointer;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 33px;
                 text-align: left;
                 color: $grey01;
+                text-transform: none;
               }
               img {
                 margin-right: -10px;
@@ -222,8 +261,15 @@ html.body-locked {
                       justify-content: space-between;
                       align-items: center;
                       padding: 10px 24px;
-                      border-top: 1px solid $light_grey01;
+                      border-bottom: 1px solid $light_grey01;
                       width: 100%;
+                      &:first-of-type {
+                        border-top: 1px solid $light_grey01;
+                      }
+                      &:hover {
+                        background-color: $light_grey01;
+                        border-bottom: 1px solid $light_grey02;
+                      }
                       > span {
                         font-size: 16px;
                         font-weight: 400;
@@ -282,8 +328,15 @@ html.body-locked {
                           justify-content: flex-start;
                           align-items: center;
                           padding: 10px 24px;
-                          border-top: 1px solid $light_grey01;
+                          border-bottom: 1px solid $light_grey01;
                           width: 100%;
+                          &:first-of-type {
+                            border-top: 1px solid $light_grey01;
+                          }
+                          &:hover {
+                            background-color: $light_grey01;
+                            border-bottom: 1px solid $light_grey02;
+                          }
                           a {
                             text-decoration: none;
                           }
@@ -467,8 +520,15 @@ html.body-locked {
                       justify-content: flex-start;
                       align-items: center;
                       padding: 10px 24px;
-                      border-top: 1px solid $light_grey01;
+                      border-bottom: 1px solid $light_grey01;
                       width: 100%;
+                      &:first-of-type {
+                        border-top: 1px solid $light_grey01;
+                      }
+                      &:hover {
+                        background-color: $light_grey01;
+                        border-bottom: 1px solid $light_grey02;
+                      }
                       a {
                         text-decoration: none;
                       }
@@ -596,6 +656,27 @@ html.body-locked {
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 761px) {
+  .header-2-0 {
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: calc((100vw - 1728px) / 2);
+      width: 390px;
+      height: 70vh;
+      background-color: $white;
+      z-index: 9999999999999;
+      transform: translateX(-100%);
+      transition: 0.4s;
+      overflow: hidden;
+      &.active {
+        display: flex;
       }
     }
   }
