@@ -58,7 +58,7 @@ $(document).ready(function() {
 // 2nd level expanded menu
 document.addEventListener('DOMContentLoaded', () => {
   const menuItems = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot.without-link');
-  const prevButtons = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot img');
+  const prevButtons = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .prev-icon');
 
   menuItems.forEach(item => {
       item.addEventListener('click', () => {
@@ -88,7 +88,41 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// 3rd level expanded menu
+document.addEventListener('DOMContentLoaded', () => {
+  const secondLvlMenuItems = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .second-lvl-menu-wrapper__el');
+  const prevSecondLvlButtons = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .menu-inner-third-lvl-content .prev-icon-third-lvl');
 
+  secondLvlMenuItems.forEach(item => {
+      item.addEventListener('click', () => {
+          const childSecondMenu = item.querySelector('.menu-inner-third-lvl-content');
+          if (childSecondMenu) {
+            childSecondMenu.classList.add('active');
+          }
+      });
+  });
+
+  prevSecondLvlButtons.forEach(button => {
+      button.addEventListener('click', (event) => {
+          event.stopPropagation(); // Prevent the event from bubbling up
+          const parentSecondLvlMenu = button.closest('.menu-inner-third-lvl-content');
+          parentSecondLvlMenu.classList.remove('active');
+      });
+  });
+});
+
+// Close icon 
+document.addEventListener('DOMContentLoaded', () => {
+  const closeIcons = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper .close-icon')
+
+  closeIcons.forEach(item => {
+      item.addEventListener('click', () => {
+        mobile_menu.classList.remove('active');
+        document.body.classList.remove('body-locked');
+        document.getElementsByTagName('html')[0].classList.remove('body-locked');
+      });
+  });
+});
 
 
 
