@@ -3,6 +3,9 @@
     width: 100%;
     margin: 110px auto 55px;
     max-width: 1380px;
+    .toggle-text-button {
+      display: none;
+    }
     .welcome-text {
       display: flex;
       flex-direction: row;
@@ -24,9 +27,37 @@
 @media (max-width: 760px) {
   .main-2-0 {
     #welcome {
+      .toggle-text-button {
+        display: block;
+        margin: 8px auto;
+        padding: 10px 20px;
+        background-color: unset;
+        color: $grey01;
+        border: none;
+        cursor: pointer;
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 16.5px;
+        text-align: left;
+        svg {
+          margin-left: 10px;
+          object-fit: contain;
+          transition: 0.5s;
+          &.rotated {
+            transform: rotate(180deg);
+          }
+        }
+      }
       .welcome-text {
         flex-direction: column;
         margin: 0 20px;
+        overflow: hidden;
+        max-height: 260px;
+        transition: max-height 1.5s ease;
+        &.expanded {
+          max-height: none;
+        }
         &__col {
           width: 100%;
         }

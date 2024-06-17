@@ -588,6 +588,9 @@ body {
   margin: 110px auto 55px;
   max-width: 1380px;
 }
+.main-2-0 #welcome .toggle-text-button {
+  display: none;
+}
 .main-2-0 #welcome .welcome-text {
   display: flex;
   flex-direction: row;
@@ -605,9 +608,38 @@ body {
 }
 
 @media (max-width: 760px) {
+  .main-2-0 #welcome .toggle-text-button {
+    display: block;
+    margin: 8px auto;
+    padding: 10px 20px;
+    background-color: unset;
+    color: #25262b;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16.5px;
+    text-align: left;
+  }
+  .main-2-0 #welcome .toggle-text-button svg {
+    margin-left: 10px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    transition: 0.5s;
+  }
+  .main-2-0 #welcome .toggle-text-button svg.rotated {
+    transform: rotate(180deg);
+  }
   .main-2-0 #welcome .welcome-text {
     flex-direction: column;
     margin: 0 20px;
+    overflow: hidden;
+    max-height: 260px;
+    transition: max-height 1.5s ease;
+  }
+  .main-2-0 #welcome .welcome-text.expanded {
+    max-height: none;
   }
   .main-2-0 #welcome .welcome-text__col {
     width: 100%;

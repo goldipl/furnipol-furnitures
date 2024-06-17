@@ -25,3 +25,16 @@ $(document).ready(function() {
 		$(this).find(".arrow-down-show").toggleClass("rotated");
 	});
 });
+
+// Toggling show more text btn
+document.addEventListener("DOMContentLoaded", () => {
+	const toggleButton = document.querySelector(".toggle-text-button span");
+	const toggleButtonArrow = document.querySelector(".toggle-text-button svg");
+	const welcomeText = document.querySelector(".welcome-text");
+
+	toggleButton.addEventListener("click", () => {
+		welcomeText.classList.toggle("expanded");
+		toggleButtonArrow.classList.toggle("rotated");
+		toggleButton.textContent = welcomeText.classList.contains("expanded") ? "Pokaż mniej" : "Pokaż więcej";
+	});
+});
