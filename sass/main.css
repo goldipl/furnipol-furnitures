@@ -1664,6 +1664,7 @@ body {
   .header-2-0 .bottom-header-nav {
     justify-content: flex-start;
     overflow-x: scroll;
+    overflow-y: hidden;
   }
   .header-2-0 .bottom-header-nav__el {
     border-right: 1px solid #ffffff;

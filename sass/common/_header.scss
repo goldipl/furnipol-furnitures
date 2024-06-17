@@ -392,6 +392,7 @@
       &-nav {
         justify-content: flex-start;
         overflow-x: scroll;
+        overflow-y: hidden;
         &__el {
           border-right: 1px solid $white;
           border-bottom: 2px solid $transparent;
