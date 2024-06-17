@@ -1640,9 +1640,16 @@ body {
     height: 40px;
   }
   .header-2-0 .top-header__search-box input {
+    font-size: 14px;
     width: 100%;
     height: 40px;
     padding: 0 60px 0 20px;
+  }
+  .header-2-0 .top-header__search-box input::-moz-placeholder {
+    font-size: 14px;
+  }
+  .header-2-0 .top-header__search-box input::placeholder {
+    font-size: 14px;
   }
   .header-2-0 .top-header__search-box button {
     right: 14px;
