@@ -124,6 +124,19 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Images menu
+document.addEventListener('DOMContentLoaded', () => {
+  const menuImgItems = document.querySelectorAll('.header-2-0 .mobile-menu-img-wrapper-bottom__slot');
+
+  menuImgItems.forEach(item => {
+      item.addEventListener('click', () => {
+          const childImgMenu = item.querySelector('.menu-inner-third-lvl-content');
+          if (childImgMenu) {
+            childImgMenu.classList.add('active');
+          }
+      });
+  });
+});
 
 
 
