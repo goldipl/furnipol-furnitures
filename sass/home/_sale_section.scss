@@ -51,12 +51,6 @@
           padding: 10px;
           border: 1px solid $transparent;
           border-radius: 16px;
-          &:hover {
-            border: 1px solid $light_grey03;
-            .add-to-the-cart {
-              display: flex;
-            }
-          }
           &__icons {
             display: flex;
             flex-direction: row;
@@ -80,7 +74,8 @@
                 height: 16px;
               }
               &:hover {
-                border: 1px solid $furnipol_orange;
+                background-color: $light_grey01;
+                border: 1px solid $grey01;
               }
             }
           }
