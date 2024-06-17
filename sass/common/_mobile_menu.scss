@@ -660,11 +660,21 @@ html.body-locked {
   }
 }
 
+@media (max-width: 1728px) {
+  .header-2-0 {
+    width: 100%;
+    .mobile-menu {
+      right: 0;
+    }
+  }
+}
+
 @media (min-width: 761px) {
   .header-2-0 {
+    position: relative;
     .mobile-menu {
       display: none;
-      position: absolute;
+      position: fixed;
       top: 0;
       right: calc((100vw - 1728px) / 2);
       width: 390px;

@@ -42,3 +42,17 @@ document.addEventListener("DOMContentLoaded", () => {
 		toggleButton.textContent = welcomeText.classList.contains("expanded") ? "Pokaż mniej" : "Pokaż więcej";
 	});
 });
+
+// Fixed header
+document.addEventListener('DOMContentLoaded', () => {
+	const header = document.querySelector('.header-2-0 .top-header');
+	const headerOffset = header.offsetTop;
+
+	window.addEventListener('scroll', function() {
+		if (window.pageYOffset > headerOffset) {
+			header.classList.add('fixed-header');
+		} else {
+			header.classList.remove('fixed-header');
+		}
+	});
+});

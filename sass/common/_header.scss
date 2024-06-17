@@ -24,6 +24,17 @@
     width: 100%;
     margin: 0 auto;
 
+    &.fixed-header {
+      background-color: $light_grey01;
+      position: fixed;
+      top: 0;
+      left: calc((100vw - 1728px - 16px) / 2);
+      width: 100%;
+      max-width: 1728px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 9999999999999999999999999999;
+    }
+
     &__logo {
       margin: 0 38px;
       .top-header__mobile-logo {
@@ -335,6 +346,16 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1728px) {
+  .header-2-0 {
+    .top-header {
+      &.fixed-header {
+        left: 0;
       }
     }
   }
