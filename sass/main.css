@@ -1347,6 +1347,9 @@ body {
   display: flex;
   margin-right: 33px;
 }
+.header-2-0 .top-header__buttons .my-account:hover img {
+  background-color: #d9d9d9;
+}
 .header-2-0 .top-header__buttons .my-account a {
   display: flex;
   flex-direction: row;
@@ -1358,6 +1361,11 @@ body {
   -o-object-fit: contain;
      object-fit: contain;
   margin-right: 11px;
+  padding: 8px 4px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  height: 45px;
+  width: auto;
 }
 .header-2-0 .top-header__buttons .my-account a span {
   font-size: 14px;
@@ -1367,16 +1375,28 @@ body {
 .header-2-0 .top-header__buttons .favourites {
   display: flex;
   margin-right: 22px;
+  padding: 8px 4px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.header-2-0 .top-header__buttons .favourites:hover {
+  background-color: #d9d9d9;
 }
 .header-2-0 .top-header__buttons .cart {
   position: relative;
   display: flex;
   margin-right: 45px;
+  padding: 8px 4px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.header-2-0 .top-header__buttons .cart:hover {
+  background-color: #d9d9d9;
 }
 .header-2-0 .top-header__buttons .cart-quantity {
   position: absolute;
-  top: -8px;
-  right: -12px;
+  top: 0px;
+  right: -9px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1400,31 +1420,17 @@ body {
   background-color: #25262b;
 }
 .header-2-0 .top-header__buttons .hamburger-menu {
-  width: 28px;
-  height: 28px;
+  width: 45px;
+  height: 45px;
   position: relative;
   margin: auto;
   cursor: pointer;
   margin-left: 45px;
+  border-radius: 7px;
+  box-sizing: border-box;
 }
-.header-2-0 .top-header__buttons .hamburger-menu span {
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background: #25262b;
-  border-radius: 4px;
-  opacity: 1;
-  left: 0;
-}
-.header-2-0 .top-header__buttons .hamburger-menu span:nth-child(1) {
-  top: 0px;
-}
-.header-2-0 .top-header__buttons .hamburger-menu span:nth-child(2) {
-  top: 12px;
-}
-.header-2-0 .top-header__buttons .hamburger-menu span:nth-child(3) {
-  top: 24px;
+.header-2-0 .top-header__buttons .hamburger-menu:hover {
+  background-color: #d9d9d9;
 }
 .header-2-0 .bottom-header {
   display: flex;

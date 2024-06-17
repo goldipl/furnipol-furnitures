@@ -79,6 +79,9 @@
       .my-account {
         display: flex;
         margin-right: 33px;
+        &:hover img {
+          background-color: $light_grey03;
+        }
         a {
           display: flex;
           flex-direction: row;
@@ -88,6 +91,11 @@
             display: flex;
             object-fit: contain;
             margin-right: 11px;
+            padding: 8px 4px;
+            border-radius: 7px;
+            box-sizing: border-box;
+            height: 45px;
+            width: auto;
           }
           span {
             font-size: 14px;
@@ -100,16 +108,28 @@
       .favourites {
         display: flex;
         margin-right: 22px;
+        padding: 8px 4px;
+        border-radius: 7px;
+        box-sizing: border-box;
+        &:hover {
+          background-color: $light_grey03;
+        }
       }
 
       .cart {
         position: relative;
         display: flex;
         margin-right: 45px;
+        padding: 8px 4px;
+        border-radius: 7px;
+        box-sizing: border-box;
+        &:hover {
+          background-color: $light_grey03;
+        }
         &-quantity {
           position: absolute;
-          top: -8px;
-          right: -12px;
+          top: 0px;
+          right: -9px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -136,34 +156,16 @@
       }
 
       .hamburger-menu {
-        width: 28px;
-        height: 28px;
+        width: 45px;
+        height: 45px;
         position: relative;
         margin: auto;
         cursor: pointer;
         margin-left: 45px;
-
-        span {
-          display: block;
-          position: absolute;
-          height: 2px;
-          width: 100%;
-          background: $grey01;
-          border-radius: 4px;
-          opacity: 1;
-          left: 0;
-
-          &:nth-child(1) {
-            top: 0px;
-          }
-
-          &:nth-child(2) {
-            top: 12px;
-          }
-
-          &:nth-child(3) {
-            top: 24px;
-          }
+        border-radius: 7px;
+        box-sizing: border-box;
+        &:hover {
+          background-color: $light_grey03;
         }
       }
     }
