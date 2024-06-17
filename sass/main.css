@@ -313,6 +313,21 @@ body {
   .main-2-0 #sale #sale-slider .swiper-button-next {
     display: none;
   }
+  .main-2-0 #sale #sale-slider .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 761px) {
+  .main-2-0 #sale {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1728px;
+  }
+  .main-2-0 #sale #sale-slider .swiper-pagination {
+    display: none;
+  }
 }
 .main-2-0 #favourite-categories {
   position: relative;

@@ -181,6 +181,26 @@
         .swiper-button-next {
           display: none;
         }
+        .swiper-pagination {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 761px) {
+  .main-2-0 {
+    #sale {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1728px;
+      #sale-slider {
+        .swiper-pagination {
+          display: none;
+        }
       }
     }
   }
