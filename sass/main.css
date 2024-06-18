@@ -537,20 +537,18 @@ body {
 
 @media (max-width: 1728px) {
   .main-2-0 #garden-time .garden-time-swiper .garden-time {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 24px;
+    padding: 16px;
+    grid-column-gap: 16px;
+    grid-row-gap: 24px;
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time-slot {
-    width: calc(50% - 24px);
+    width: 100%;
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time-slot__img {
     width: 100%;
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time-slot__img img {
     width: 100%;
-    height: auto;
   }
   .main-2-0 #garden-time .garden-time-swiper .garden-time-slot__title {
     display: none;
@@ -599,7 +597,7 @@ body {
   .main-2-0 #garden-time .garden-time-swiper .garden-time {
     display: flex;
     flex-wrap: nowrap;
-    padding-bottom: 24px;
+    padding: 0 0 24px 0;
     grid-column-gap: 0;
     grid-row-gap: 0;
   }

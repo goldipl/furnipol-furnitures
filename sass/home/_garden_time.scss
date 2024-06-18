@@ -108,18 +108,16 @@
     #garden-time {
       .garden-time-swiper {
         .garden-time {
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          padding-bottom: 24px;
+          padding: 16px;
+          grid-column-gap: 16px;
+          grid-row-gap: 24px;
           &-slot {
-            width: calc(50% - 24px);
+            width: 100%;
             &__img {
               width: 100%;
 
               img {
                 width: 100%;
-                height: auto;
               }
             }
 
@@ -184,7 +182,7 @@
         .garden-time {
           display: flex;
           flex-wrap: nowrap;
-          padding-bottom: 24px;
+          padding: 0 0 24px 0;
           grid-column-gap: 0;
           grid-row-gap: 0;
 
