@@ -1941,8 +1941,7 @@ body {
     margin: 0 0 24px 0;
   }
   .footer-2-0 .footer-wrapper-top-col__socials p {
-    text-align: center;
-    margin: 0 0 12px 0;
+    display: none;
   }
   .footer-2-0 .footer-wrapper-top-col__socials a {
     margin-right: 16px;
