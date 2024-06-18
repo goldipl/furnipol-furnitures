@@ -28,33 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-$(document).ready(function() {
-  if ($(window).width() > 760) {
-    $('.header-2-0 .bottom-header-nav__el span').on('click', function() {
-      var $wrapper = $(this).siblings('.bottom-header-nav__wrapper');
-
-      // Remove the active class from all .bottom-header-nav__wrapper elements
-      $('.bottom-header-nav__wrapper').removeClass('active');
-
-      // Check if this span element was previously clicked
-      if ($(this).data('clicked')) {
-          // Remove the active class on the second click
-          $wrapper.removeClass('active');
-          // Reset the click state
-          $(this).data('clicked', false);
-      } else {
-          // Add the active class on the first click
-          $wrapper.addClass('active');
-          // Set the click state to true
-          $(this).data('clicked', true);
-      }
-
-      // Reset the click state for other span elements
-      $('.header-2-0 .bottom-header-nav__el span').not(this).data('clicked', false);
-    });
-  }
-});
-
 // 2nd level expanded menu
 document.addEventListener('DOMContentLoaded', () => {
   const menuItems = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot.without-link');

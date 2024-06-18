@@ -1571,6 +1571,9 @@ body {
 .header-2-0 .bottom-header-nav__el:hover {
   border-bottom: 4px solid #eb7d3f;
 }
+.header-2-0 .bottom-header-nav__el:hover > span + .bottom-header-nav__wrapper {
+  display: flex;
+}
 .header-2-0 .bottom-header-nav__el.sale span {
   color: #eb7d3f;
 }
@@ -1793,6 +1796,9 @@ body {
   }
   .header-2-0 .bottom-header-nav__el:hover {
     border-bottom: 2px solid #eb7d3f;
+  }
+  .header-2-0 .bottom-header-nav__el:hover > span + .bottom-header-nav__wrapper {
+    display: none;
   }
   .header-2-0 .bottom-header-nav__el span {
     white-space: pre;

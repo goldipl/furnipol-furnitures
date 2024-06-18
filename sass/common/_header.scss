@@ -206,6 +206,9 @@
         border-bottom: 4px solid $transparent;
         &:hover {
           border-bottom: 4px solid $furnipol_orange;
+          > span + .bottom-header-nav__wrapper {
+            display: flex;
+          }
         }
         &.sale {
           span {
@@ -419,6 +422,9 @@
           border-bottom: 2px solid $transparent;
           &:hover {
             border-bottom: 2px solid $furnipol_orange;
+            > span + .bottom-header-nav__wrapper {
+              display: none;
+            }
           }
           span {
             white-space: pre;
