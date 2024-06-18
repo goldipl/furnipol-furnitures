@@ -1774,6 +1774,9 @@ body {
   color: #0f0f0f;
   margin: 0 0 28px 0;
 }
+.footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title .footer-arrow-icon {
+  display: none;
+}
 .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links {
   display: flex;
   flex-direction: column;
@@ -1922,7 +1925,7 @@ body {
   }
   .footer-2-0 .footer-wrapper-top {
     flex-direction: column;
-    padding-bottom: 16px;
+    padding-bottom: 0;
     width: calc(100% - 40px);
     margin: 0 20px;
   }
@@ -1949,16 +1952,55 @@ body {
   .footer-2-0 .footer-wrapper-top-col__socials a:last-of-type {
     margin-right: 0;
   }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #d9d9d9;
+    padding: 10px 20px;
+  }
   .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title h3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 16px;
     line-height: 24px;
-    margin: 0 0 14px 0;
+    margin: 0;
+    height: 40px;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title .footer-arrow-icon {
+    display: flex;
+    transition: 0.6s;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title .footer-arrow-icon.rotated {
+    transform: rotate(90deg);
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links {
+    display: none;
+    margin: 0 24px;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links.active {
+    display: flex;
   }
   .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links a {
     margin: 0 0 8px 0;
   }
   .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__links a:last-of-type {
     margin: 0 0 16px 0;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact {
+    display: none;
+    margin: 0 24px;
+    transition: 0.6s;
+  }
+  .footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__contact.active {
+    display: flex;
   }
   .footer-2-0 .footer-wrapper-middle {
     padding: 30px 0;

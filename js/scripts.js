@@ -56,3 +56,20 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 });
+
+// Toggling mobile footer contact buttons
+document.addEventListener("DOMContentLoaded", () => {
+    const footerContactBtns = document.querySelectorAll(".footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title");
+
+    footerContactBtns.forEach((element) => {
+        element.addEventListener('click', () => {
+            const nextSibling = element.nextElementSibling;
+            nextSibling.classList.toggle('active');
+            const arrowIcon = element.querySelector(".footer-arrow-icon");
+            if (arrowIcon) {
+                arrowIcon.classList.toggle('rotated');
+            }
+        });
+    });
+});
+
