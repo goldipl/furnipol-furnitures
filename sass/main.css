@@ -1348,6 +1348,18 @@ body {
     color: #eb7d3f;
   }
 }
+.main-2-0 #collection-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1380px;
+  margin-bottom: 55px;
+}
+
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;
