@@ -217,7 +217,10 @@
 @media (max-width: 1728px) {
   .footer-2-0 {
     .footer-wrapper {
+      padding: 40px 40px 10px 40px;
       &-top {
+        width: 100%;
+        justify-content: space-between;
         &-col {
           margin-right: 24px;
           width: 25%;

@@ -2016,6 +2016,13 @@ body {
 }
 
 @media (max-width: 1728px) {
+  .footer-2-0 .footer-wrapper {
+    padding: 40px 40px 10px 40px;
+  }
+  .footer-2-0 .footer-wrapper-top {
+    width: 100%;
+    justify-content: space-between;
+  }
   .footer-2-0 .footer-wrapper-top-col {
     margin-right: 24px;
     width: 25%;
