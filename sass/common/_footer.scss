@@ -214,6 +214,22 @@
   }
 }
 
+@media (max-width: 1728px) {
+  .footer-2-0 {
+    .footer-wrapper {
+      &-top {
+        &-col {
+          margin-right: 24px;
+          width: 25%;
+          &:nth-of-type(1) {
+            width: 375px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1220px) {
   .footer-2-0 {
     .footer-wrapper {

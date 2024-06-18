@@ -109,6 +109,7 @@
       .garden-time-swiper {
         .garden-time {
           display: flex;
+          justify-content: center;
           flex-wrap: wrap;
           padding-bottom: 24px;
           &-slot {

@@ -166,6 +166,51 @@
   }
 }
 
+@media (max-width: 1520px) {
+  .main-2-0 {
+    #newsletter-section {
+      .newsletter-wrapper {
+        &-content {
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          &-right {
+            .newsletter-form {
+              .form-input-box {
+                input {
+                  width: 260px;
+                  height: 48px;
+                  box-sizing: border-box;
+                  font-size: 12px;
+                  line-height: 18px;
+                  color: $grey01;
+                  padding: 0 19px;
+                  margin-right: 7px;
+                  &::placeholder {
+                    font-size: 12px;
+                    line-height: 18px;
+                    text-align: left;
+                    color: $light_grey02;
+                  }
+                }
+                button {
+                  display: flex;
+                  padding: 0 25px;
+                  width: 120px;
+                  height: 48px;
+                  font-size: 14px;
+                  box-sizing: border-box;
+                  white-space: pre;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1220px) {
   .main-2-0 {
     #newsletter-section {

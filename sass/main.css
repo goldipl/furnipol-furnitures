@@ -538,6 +538,7 @@ body {
 @media (max-width: 1728px) {
   .main-2-0 #garden-time .garden-time-swiper .garden-time {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 24px;
   }
@@ -647,18 +648,20 @@ body {
   width: 100%;
   margin: 110px auto 55px;
   max-width: 1380px;
+  padding: 0 16px;
 }
 .main-2-0 #welcome .toggle-text-button {
   display: none;
 }
 .main-2-0 #welcome .welcome-text {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
 }
 .main-2-0 #welcome .welcome-text__col {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 49%;
 }
 .main-2-0 #welcome .welcome-text__col p {
   font-size: 16px;
@@ -707,7 +710,7 @@ body {
 }
 .main-2-0 #text-swiper-section {
   background-color: #f5f5f5;
-  padding: 55px 0;
+  padding: 55px 16px;
 }
 .main-2-0 #text-swiper-section .text-swiper-section-wrapper {
   display: flex;
@@ -1177,6 +1180,44 @@ body {
   color: #eb7d3f;
 }
 
+@media (max-width: 1520px) {
+  .main-2-0 #newsletter-section .newsletter-wrapper-content {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input {
+    width: 260px;
+    height: 48px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+    color: #25262b;
+    padding: 0 19px;
+    margin-right: 7px;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::-moz-placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #a8a8a9;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box input::placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #a8a8a9;
+  }
+  .main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box button {
+    display: flex;
+    padding: 0 25px;
+    width: 120px;
+    height: 48px;
+    font-size: 14px;
+    box-sizing: border-box;
+    white-space: pre;
+  }
+}
 @media (max-width: 1220px) {
   .main-2-0 #newsletter-section .newsletter-wrapper {
     flex-direction: column;
@@ -1968,6 +2009,15 @@ body {
   margin: 0;
 }
 
+@media (max-width: 1728px) {
+  .footer-2-0 .footer-wrapper-top-col {
+    margin-right: 24px;
+    width: 25%;
+  }
+  .footer-2-0 .footer-wrapper-top-col:nth-of-type(1) {
+    width: 375px;
+  }
+}
 @media (max-width: 1220px) {
   .footer-2-0 .footer-wrapper {
     padding: 70px 0 0 0;
