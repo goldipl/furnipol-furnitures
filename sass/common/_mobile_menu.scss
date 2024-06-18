@@ -664,7 +664,9 @@ html.body-locked {
   .header-2-0 {
     width: 100%;
     .mobile-menu {
-      right: 0;
+      &.active {
+        right: 0;
+      }
     }
   }
 }

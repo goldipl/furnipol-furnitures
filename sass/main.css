@@ -2863,7 +2863,7 @@ html.body-locked {
   .header-2-0 {
     width: 100%;
   }
-  .header-2-0 .mobile-menu {
+  .header-2-0 .mobile-menu.active {
     right: 0;
   }
 }
