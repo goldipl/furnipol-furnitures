@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let favSwiper;
 
   const toggleFavSwiper = () => {
-    if (window.innerWidth < 760) {
+    if (window.innerWidth < 1220) {
       if (!favSwiper) {
         favSwiper = new Swiper('.fav-cat-swiper', {
           direction: 'horizontal',
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let gardenTimeSwiper;
 
   const toggleGardenTimeSwiper = () => {
-    if (window.innerWidth < 760) {
+    if (window.innerWidth < 1220) {
       if (!gardenTimeSwiper) {
         gardenTimeSwiper = new Swiper('.garden-time-swiper', {
           direction: 'horizontal',
