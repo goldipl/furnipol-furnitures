@@ -26,6 +26,26 @@
   background-color: $furnipol_orange;
 }
 
+@media (max-width: 1728px) {
+  .main-2-0 {
+    #hero-swiper {
+      .hero-swiper {
+        width: 100%;
+        height: auto;
+        &.mobile-hero-swiper {
+          .swiper-slide {
+            img {
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1220px) {
   .main-2-0 {
     #hero-swiper {
