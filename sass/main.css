@@ -4,7 +4,7 @@ html {
   margin: 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   body:has(.main-2-0),
   html:has(.main-2-0) {
     overflow-x: hidden;
@@ -110,7 +110,7 @@ body {
   background-color: #eb7d3f;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #hero-swiper .hero-swiper {
     width: 100%;
     height: auto;
@@ -299,7 +299,7 @@ body {
      object-fit: contain;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #sale h2 {
     font-size: 20px;
     font-weight: 700;
@@ -390,7 +390,7 @@ body {
   color: #0f0f0f;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #favourite-categories .swiper-button-prev.fav-swiper-prev {
     display: none;
   }
@@ -523,7 +523,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #garden-time .swiper-button-prev.garden-time-swiper-prev,
   .main-2-0 #garden-time .swiper-button-next.garden-time-swiper-next {
     display: flex;
@@ -617,7 +617,7 @@ body {
   text-align: left;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #welcome .toggle-text-button {
     display: block;
     margin: 8px auto;
@@ -791,7 +791,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #text-swiper-section {
     position: relative;
     padding: 56px 20px 116px;
@@ -916,7 +916,7 @@ body {
   margin: 0 16px 0 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #our-advantages {
     max-width: unset;
   }
@@ -1127,7 +1127,7 @@ body {
   color: #eb7d3f;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 #newsletter-section .newsletter-wrapper {
     flex-direction: column;
     max-width: unset;
@@ -1267,7 +1267,7 @@ body {
   margin: 0 0 16px 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .main-2-0 h2 {
     font-size: 20px;
     font-weight: 700;
@@ -1644,7 +1644,7 @@ body {
     left: 0;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .header-2-0 {
     height: 109px;
   }
@@ -1918,7 +1918,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1220px) {
   .footer-2-0 .footer-wrapper {
     padding: 70px 0 0 0;
     max-width: unset;
