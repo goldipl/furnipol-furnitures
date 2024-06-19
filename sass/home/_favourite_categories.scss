@@ -20,6 +20,8 @@
       justify-content: space-between;
       align-items: flex-start;
       gap: 50px 15px;
+      padding: 0 16px;
+      box-sizing: border-box;
       &-slot {
         display: flex;
         flex-direction: column;
@@ -81,6 +83,7 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
         align-items: center;
+        padding: 0;
         gap: 0;
         &-slot {
           width: 50% !important;

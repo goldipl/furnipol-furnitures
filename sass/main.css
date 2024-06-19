@@ -363,6 +363,8 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   gap: 50px 15px;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 .main-2-0 #favourite-categories .favourite-categories-slot {
   display: flex;
@@ -419,6 +421,7 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    padding: 0;
     gap: 0;
   }
   .main-2-0 #favourite-categories .favourite-categories-slot {
