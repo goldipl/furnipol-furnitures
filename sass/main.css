@@ -1380,7 +1380,6 @@ body {
   width: -moz-max-content;
   width: max-content;
   height: 51px;
-  padding: 16px;
   box-sizing: border-box;
   border: 1px solid #d9d9d9;
   background-color: #ffffff;
@@ -1393,6 +1392,7 @@ body {
 }
 .main-2-0 #collection-tabs .tabs-container .nav-pills .pill a {
   all: unset;
+  padding: 16px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1533,11 +1533,11 @@ body {
     padding-bottom: 8px;
   }
   .main-2-0 #collection-tabs .tabs-container .nav-pills .pill {
-    padding: 16px 8px;
     font-size: 14px;
   }
   .main-2-0 #collection-tabs .tabs-container .nav-pills .pill a {
     white-space: pre;
+    padding: 16px 8px;
   }
   .main-2-0 #collection-tabs .tab-content {
     width: 100%;

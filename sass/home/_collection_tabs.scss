@@ -27,7 +27,6 @@
           display: flex;
           width: max-content;
           height: 51px;
-          padding: 16px;
           box-sizing: border-box;
           border: 1px solid $light_grey03;
           background-color: $white;
@@ -39,6 +38,7 @@
           border-radius: 7px;
           a {
             all: unset;
+            padding: 16px;
             text-decoration: none;
             cursor: pointer;
           }
@@ -187,10 +187,10 @@
           width: 100%;
           padding-bottom: 8px;
           .pill {
-            padding: 16px 8px;
             font-size: 14px;
             a {
               white-space: pre;
+              padding: 16px 8px;
             }
           }
         }
