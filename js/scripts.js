@@ -42,20 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 });
 
-// Fixed header
-document.addEventListener('DOMContentLoaded', () => {
-	const header = document.querySelector('.header-2-0 .top-header');
-	const headerOffset = header.offsetTop;
-
-	window.addEventListener('scroll', () => {
-		if (window.scrollY > headerOffset) {
-			header.classList.add('fixed-header');
-		} else {
-			header.classList.remove('fixed-header');
-		}
-	});
-});
-
 // Toggling mobile footer contact buttons
 document.addEventListener("DOMContentLoaded", () => {
     const footerContactBtns = document.querySelectorAll(".footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title");

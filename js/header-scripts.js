@@ -28,6 +28,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Fixed header
+document.addEventListener('DOMContentLoaded', () => {
+	const header = document.querySelector('.header-2-0 .top-header');
+	const headerOffset = header.offsetTop;
+
+	window.addEventListener('scroll', () => {
+		if (window.scrollY > headerOffset) {
+			header.classList.add('fixed-header');
+		} else {
+			header.classList.remove('fixed-header');
+		}
+	});
+});
+
 // 2nd level expanded menu
 document.addEventListener('DOMContentLoaded', () => {
   const menuItems = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot.without-link');
