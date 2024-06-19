@@ -23,6 +23,7 @@
         display: grid;
         grid-column-gap: 24px;
         grid-row-gap: 24px;
+        box-sizing: border-box;
 
         &-slot {
           position: relative;

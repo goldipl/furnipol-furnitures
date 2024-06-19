@@ -472,6 +472,7 @@ body {
   display: grid;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
+  box-sizing: border-box;
 }
 .main-2-0 #garden-time .garden-time-swiper .garden-time-slot {
   position: relative;
@@ -1370,6 +1371,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 .main-2-0 #collection-tabs .tabs-container .nav-pills {
   display: flex;
@@ -1413,6 +1416,7 @@ body {
   margin: 16px auto 0;
   max-width: 1380px;
   overflow: hidden;
+  width: 100%;
 }
 .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper {
   max-width: 1380px;

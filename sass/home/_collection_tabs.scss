@@ -17,6 +17,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      box-sizing: border-box;
       .nav-pills {
         display: flex;
         align-items: center;
@@ -59,6 +61,7 @@
       margin: 16px auto 0;
       max-width: 1380px;
       overflow: hidden;
+      width: 100%;
       .collection-tabs-swiper {
         max-width: 1380px;
         .collection-tabs-slot {
