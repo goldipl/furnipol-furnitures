@@ -1,0 +1,21 @@
+.header-2-0 {
+  .cart-preview-box {
+    display: none;
+    position: absolute;
+    top: 77px;
+    right: calc(((100vw - 1728px) / 2) - -120px);
+    width: 425px;
+    height: 596px;
+    background: $light_grey01;
+    border-radius: 7px;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 2;
+    &.active {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+}

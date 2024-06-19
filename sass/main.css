@@ -1606,6 +1606,7 @@ body {
   margin: 0 auto;
 }
 .header-2-0 .top-header-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -3133,6 +3134,23 @@ html.body-locked {
     display: flex;
   }
 }
+.header-2-0 .cart-preview-box {
+  display: none;
+  position: absolute;
+  top: 77px;
+  right: calc((100vw - 1728px) / 2 + 120px);
+  width: 425px;
+  height: 596px;
+  background: #f5f5f5;
+  border-radius: 7px;
+  padding: 30px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.header-2-0 .cart-preview-box.active {
+  display: flex;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */

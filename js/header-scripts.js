@@ -111,5 +111,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Cart preview box on desktop devices, so above 1220px screen width
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.innerWidth > 1220) {
+    const cartHeaderIconBtn = document.querySelector('.header-2-0 .top-header__buttons .cart > a');
+    const cartPreviewBox = document.querySelector('.header-2-0 .cart-preview-box');
 
+    cartHeaderIconBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (cartPreviewBox) {
+        cartPreviewBox.classList.toggle('active');
+      }
+    });
+  }
+});
 
