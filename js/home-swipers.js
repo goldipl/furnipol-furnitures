@@ -157,9 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const living_room_tabs_swiper = new Swiper('.living-room-tabs-swiper', {
     direction: 'horizontal',
-    slidesPerView: 3,
-    slidesPerGroup: 1,
     freeMode: true,
+    slidesPerView: 2.5,
+    slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -169,16 +169,17 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev.living-room-tabs-swiper-prev',
     },
     breakpoints: {
-      760: {
-        slidesPerView: 1,
+      // Mobile view
+      0: {
+        slidesPerView: 1.1,
         slidesPerGroup: 1,
-      },
-      200: {
-        slidesPerView: 'auto',
         centeredSlides: true,
-        slidesPerView: 1,
-        slidesPerGroup: 1,
         spaceBetween: 20,
+      },
+      // Desktop view
+      1220: {
+        slidesPerView: 2.5,
+        slidesPerGroup: 1,
       },
     },
   });
@@ -186,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const bedroom_tabs_swiper = new Swiper('.bedroom-tabs-swiper', {
     direction: 'horizontal',
     freeMode: true,
-    slidesPerView: 3,
+    slidesPerView: 2.5,
     slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
@@ -197,16 +198,17 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev.bedroom-tabs-swiper-prev',
     },
     breakpoints: {
-      760: {
-        slidesPerView: 1,
+      // Mobile view
+      0: {
+        slidesPerView: 1.1,
         slidesPerGroup: 1,
-      },
-      200: {
-        slidesPerView: 'auto',
         centeredSlides: true,
-        slidesPerView: 1,
-        slidesPerGroup: 1,
         spaceBetween: 20,
+      },
+      // Desktop view
+      1220: {
+        slidesPerView: 2.5,
+        slidesPerGroup: 1,
       },
     },
   });
@@ -214,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const children_room_tabs_swiper = new Swiper('.children-room-tabs-swiper', {
     direction: 'horizontal',
     freeMode: true,
-    slidesPerView: 3,
+    slidesPerView: 2.5,
     slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
@@ -225,16 +227,17 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev.children-room-tabs-swiper-prev',
     },
     breakpoints: {
-      760: {
-        slidesPerView: 1,
+      // Mobile view
+      0: {
+        slidesPerView: 1.1,
         slidesPerGroup: 1,
-      },
-      200: {
-        slidesPerView: 'auto',
         centeredSlides: true,
-        slidesPerView: 1,
-        slidesPerGroup: 1,
         spaceBetween: 20,
+      },
+      // Desktop view
+      1220: {
+        slidesPerView: 2.5,
+        slidesPerGroup: 1,
       },
     },
   });
@@ -242,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const bathroom_tabs_swiper = new Swiper('.bathroom-tabs-swiper', {
     direction: 'horizontal',
     freeMode: true,
-    slidesPerView: 3,
+    slidesPerView: 2.5,
     slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
@@ -253,16 +256,17 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev.bathroom-tabs-swiper-prev',
     },
     breakpoints: {
-      760: {
-        slidesPerView: 1,
+      // Mobile view
+      0: {
+        slidesPerView: 1.1,
         slidesPerGroup: 1,
-      },
-      200: {
-        slidesPerView: 'auto',
         centeredSlides: true,
-        slidesPerView: 1,
-        slidesPerGroup: 1,
         spaceBetween: 20,
+      },
+      // Desktop view
+      1220: {
+        slidesPerView: 2.5,
+        slidesPerGroup: 1,
       },
     },
   });
@@ -270,7 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const kitchen_tabs_swiper = new Swiper('.kitchen-tabs-swiper', {
     direction: 'horizontal',
     freeMode: true,
-    slidesPerView: 3,
+    slidesPerView: 2.5,
     slidesPerGroup: 1,
     pagination: {
       el: '.swiper-pagination',
@@ -281,18 +285,20 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev.kitchen-tabs-swiper-prev',
     },
     breakpoints: {
-      760: {
-        slidesPerView: 1,
+      // Mobile view
+      0: {
+        slidesPerView: 1.1,
         slidesPerGroup: 1,
-      },
-      200: {
-        slidesPerView: 'auto',
         centeredSlides: true,
-        slidesPerView: 1,
-        slidesPerGroup: 1,
         spaceBetween: 20,
+      },
+      // Desktop view
+      1220: {
+        slidesPerView: 2.5,
+        slidesPerGroup: 1,
       },
     },
   });
+  
 
 });
