@@ -1359,7 +1359,227 @@ body {
   max-width: 1380px;
   margin-bottom: 55px;
 }
+.main-2-0 #collection-tabs h2 {
+  margin-bottom: 32px;
+}
+.main-2-0 #collection-tabs .tabs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-2-0 #collection-tabs .tabs-container .nav-pills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.main-2-0 #collection-tabs .tabs-container .nav-pills .pill {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  height: 51px;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  color: #25262b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 7px;
+}
+.main-2-0 #collection-tabs .tabs-container .nav-pills .pill a {
+  all: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+.main-2-0 #collection-tabs .tabs-container .nav-pills .pill.active {
+  border: 1px solid #eb7d3f;
+  background-color: #eb7d3f;
+  color: #ffffff;
+}
+.main-2-0 #collection-tabs .tabs-container .nav-pills .pill:hover {
+  border: 1px solid #a8a8a9;
+}
+.main-2-0 #collection-tabs .tab-content {
+  display: flex;
+  flex-direction: row;
+  margin: 16px auto 0;
+  max-width: 1380px;
+  overflow: hidden;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper {
+  max-width: 1380px;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot {
+  position: relative;
+  text-decoration: none;
+  border-radius: 16px !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  margin-right: 12px !important;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot:hover .collection-tabs-slot__title {
+  display: flex;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot:hover .collection-tabs-slot__img::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  box-shadow: 0px -140px 75px -31px rgba(0, 0, 0, 0.6117647059) inset;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot__img {
+  position: relative;
+  border-radius: 16px;
+  width: -moz-max-content;
+  width: max-content;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot__img img {
+  border-radius: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot__title {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  bottom: 24px;
+  left: 40px;
+  z-index: 2;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot__title h3 {
+  font-size: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .collection-tabs-slot__title p {
+  font-size: 13px;
+  font-weight: 200;
+  color: #ffffff;
+  margin: 0;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-prev {
+  height: 55px;
+  width: 55px;
+  left: 20px;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-prev::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-next {
+  right: 20px;
+  height: 55px;
+  width: 55px;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-next::after {
+  font-size: 0;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
+  height: 55px;
+  width: 55px;
+  font-size: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-pagination {
+  display: none;
+}
 
+@media (max-width: 1220px) {
+  .main-2-0 #collection-tabs {
+    max-width: unset;
+    margin-bottom: 32px;
+  }
+  .main-2-0 #collection-tabs h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    text-align: left;
+    width: 100%;
+  }
+  .main-2-0 #collection-tabs .tabs-container {
+    width: 100%;
+  }
+  .main-2-0 #collection-tabs .tabs-container .nav-pills {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 8px;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+  .main-2-0 #collection-tabs .tabs-container .nav-pills .pill {
+    padding: 16px 8px;
+    font-size: 14px;
+  }
+  .main-2-0 #collection-tabs .tabs-container .nav-pills .pill a {
+    white-space: pre;
+  }
+  .main-2-0 #collection-tabs .tab-content {
+    width: 100%;
+    margin: 16px 0 24px 0;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper {
+    width: 100vw;
+    padding: 0 10px;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper {
+    padding-bottom: 20px;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot {
+    position: relative;
+    text-decoration: none;
+    border-radius: 16px !important;
+    width: 80vw !important;
+    margin-right: 20px !important;
+    overflow: hidden;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot__title {
+    display: flex;
+    bottom: 16px;
+    left: 26px;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot__title h3 {
+    font-size: 20px;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot__title p {
+    font-size: 12px;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-prev,
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-next {
+    display: none;
+  }
+}
 .main-2-0 h2 {
   font-size: 32px;
   font-weight: 700;

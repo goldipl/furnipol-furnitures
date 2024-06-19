@@ -141,18 +141,158 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev.bundle-promo-swiper-prev',
     },
     breakpoints: {
-            760: {
-              slidesPerView: 4,
-              slidesPerGroup: 1,
-            },
-            200: {
-              slidesPerView: 'auto',
-              centeredSlides: true,
-              slidesPerView: 1,
-              slidesPerGroup: 2,
-              spaceBetween: 20,
-            },
-          },
+      760: {
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+      },
+      200: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        slidesPerView: 1,
+        slidesPerGroup: 2,
+        spaceBetween: 20,
+      },
+    },
+  });
+
+  const living_room_tabs_swiper = new Swiper('.living-room-tabs-swiper', {
+    direction: 'horizontal',
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    freeMode: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.living-room-tabs-swiper-next',
+      prevEl: '.swiper-button-prev.living-room-tabs-swiper-prev',
+    },
+    breakpoints: {
+      760: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      200: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
+      },
+    },
+  });
+
+  const bedroom_tabs_swiper = new Swiper('.bedroom-tabs-swiper', {
+    direction: 'horizontal',
+    freeMode: true,
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.bedroom-tabs-swiper-next',
+      prevEl: '.swiper-button-prev.bedroom-tabs-swiper-prev',
+    },
+    breakpoints: {
+      760: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      200: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
+      },
+    },
+  });
+
+  const children_room_tabs_swiper = new Swiper('.children-room-tabs-swiper', {
+    direction: 'horizontal',
+    freeMode: true,
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.children-room-tabs-swiper-next',
+      prevEl: '.swiper-button-prev.children-room-tabs-swiper-prev',
+    },
+    breakpoints: {
+      760: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      200: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
+      },
+    },
+  });
+
+  const bathroom_tabs_swiper = new Swiper('.bathroom-tabs-swiper', {
+    direction: 'horizontal',
+    freeMode: true,
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.bathroom-tabs-swiper-next',
+      prevEl: '.swiper-button-prev.bathroom-tabs-swiper-prev',
+    },
+    breakpoints: {
+      760: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      200: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
+      },
+    },
+  });
+
+  const kitchen_tabs_swiper = new Swiper('.kitchen-tabs-swiper', {
+    direction: 'horizontal',
+    freeMode: true,
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.kitchen-tabs-swiper-next',
+      prevEl: '.swiper-button-prev.kitchen-tabs-swiper-prev',
+    },
+    breakpoints: {
+      760: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      200: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
+      },
+    },
   });
 
 });
