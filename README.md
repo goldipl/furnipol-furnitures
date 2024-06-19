@@ -48,4 +48,8 @@ https://goldipl.github.io/furnipol-furnitures/
 
 - Expanded Mobile Menu
 
-![screenshot](./screenshots/screenshot03.jpg)
+<img src="./screenshots/screenshot03.jpg" width="300">
+
+- Cart preview
+
+![screenshot](./screenshots/screenshot04.jpg)
