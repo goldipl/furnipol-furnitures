@@ -42,7 +42,7 @@ https://goldipl.github.io/furnipol-furnitures/
 
 ![screenshot](./screenshots/screenshot01.jpg)
 
-- Expanded Desktop Menu
+- Hover Desktop Nav Menu
 
 ![screenshot](./screenshots/screenshot02.jpg)
 
