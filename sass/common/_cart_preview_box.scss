@@ -1,7 +1,7 @@
 .header-2-0 {
   .cart-preview-box {
     display: none;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -10,7 +10,7 @@
     width: 425px;
     height: 596px;
     background: $light_grey01;
-    border-radius: 7px;
+    border-radius: 0 0 7px 7px;
     padding: 30px;
     box-sizing: border-box;
     z-index: 2;
