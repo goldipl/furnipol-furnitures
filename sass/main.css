@@ -3155,7 +3155,7 @@ html.body-locked {
   border-radius: 0 0 7px 7px;
   padding: 30px;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 100000000000000000000000000000000;
   box-shadow: 0px 161px 45px 0px rgba(0, 0, 0, 0);
 }
 .header-2-0 .cart-preview-box-title h3 {
