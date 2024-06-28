@@ -2480,7 +2480,7 @@ body.body-locked::after {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100%;
+  height: 1000vh;
   z-index: 9999999;
 }
 
