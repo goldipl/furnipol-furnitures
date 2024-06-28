@@ -2313,6 +2313,21 @@ body {
     width: 100%;
     margin-right: 0;
   }
+  .footer-2-0 .footer-wrapper-top-col.footer-logo {
+    order: 1;
+  }
+  .footer-2-0 .footer-wrapper-top-col.footer-info {
+    order: 3;
+  }
+  .footer-2-0 .footer-wrapper-top-col.footer-shopping {
+    order: 4;
+  }
+  .footer-2-0 .footer-wrapper-top-col.footer-contact {
+    order: 2;
+  }
+  .footer-2-0 .footer-wrapper-top-col.footer-contact .footer-col-wrapper__title {
+    border-top: 0;
+  }
   .footer-2-0 .footer-wrapper-top-col:nth-of-type(1) {
     width: 100%;
   }
@@ -2327,7 +2342,7 @@ body {
     display: none;
   }
   .footer-2-0 .footer-wrapper-top-col__socials a {
-    margin-right: 16px;
+    margin-right: 24px;
   }
   .footer-2-0 .footer-wrapper-top-col__socials a:last-of-type {
     margin-right: 0;
