@@ -7,28 +7,28 @@ html.body-locked {
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar-thumb {
     background-color: $light_grey02;
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
   }
 
   /* For Firefox */
   ::-moz-scrollbar-thumb {
     background-color: $light_grey02;
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
   }
 
   /* For Internet Explorer and Edge */
   ::-ms-thumb {
     background-color: $light_grey02;
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
   }
 
   /* For standard scrollbars (if supported) */
   ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
   }
   .mobile-menu {
     position: fixed;
@@ -38,6 +38,8 @@ html.body-locked {
     z-index: 9999999999999;
     transform: translateX(-100%);
     transition: 0.4s;
+    overflow-x: hidden;
+    overflow-y: scroll;
     &.active {
       transform: translateX(0);
     }
@@ -441,7 +443,7 @@ html.body-locked {
                 }
               }
               &-bottom {
-                height: 100%;
+                height: auto;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
@@ -599,6 +601,13 @@ html.body-locked {
             text-align: left;
             color: $grey01;
             background-color: $white;
+            box-shadow: none;
+            cursor: pointer;
+            background: url(./../../assets/icons/menu/menu-select-arrow.svg)
+              no-repeat right $white;
+            appearance: none;
+            -webkit-appearance: none;
+            background-position-x: 90%;
             option {
               font-size: 12px;
               font-weight: 500;
@@ -606,6 +615,13 @@ html.body-locked {
               text-align: left;
               color: $grey01;
               background-color: $white;
+            }
+            &:focus {
+              background: url(./../../assets/icons/menu/menu-select-arrow-rotate.svg)
+                no-repeat right $white;
+              appearance: none;
+              -webkit-appearance: none;
+              background-position-x: 90%;
             }
             &:hover,
             &:focus,
@@ -678,36 +694,36 @@ html.body-locked {
     /* For Webkit browsers (Chrome, Safari) */
     ::-webkit-scrollbar-thumb {
       background-color: $light_grey02;
-      width: 2px;
-      height: 2px;
+      width: 10px;
+      height: 10px;
     }
 
     /* For Firefox */
     ::-moz-scrollbar-thumb {
       background-color: $light_grey02;
-      width: 2px;
-      height: 2px;
+      width: 10px;
+      height: 10px;
     }
 
     /* For Internet Explorer and Edge */
     ::-ms-thumb {
       background-color: $light_grey02;
-      width: 2px;
-      height: 2px;
+      width: 10px;
+      height: 10px;
     }
 
     /* For standard scrollbars (if supported) */
     ::-webkit-scrollbar {
-      width: 2px;
-      height: 2px;
+      width: 10px;
+      height: 10px;
     }
     .mobile-menu {
       display: none;
       position: fixed;
       top: 0;
       right: calc((100vw - 1728px) / 2);
-      width: 390px;
-      height: 70vh;
+      width: 480px;
+      height: 100vh;
       background-color: $white;
       z-index: 9999999999999;
       transform: translateX(-100%);
@@ -715,6 +731,23 @@ html.body-locked {
       overflow: hidden;
       &.active {
         display: flex;
+      }
+      &-wrapper {
+        &__content {
+          .second-lvl-menu-wrapper,
+          .menu-inner-third-lvl-content-wrapper {
+            padding: 0 24px;
+          }
+          &-menu-list {
+            padding: 0 24px;
+          }
+          &-lang-select {
+            padding: auto 24px;
+          }
+          &-contact {
+            padding: auto 24px;
+          }
+        }
       }
     }
   }
