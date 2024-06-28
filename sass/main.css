@@ -3150,6 +3150,11 @@ body.body-locked::after {
     right: 0;
   }
 }
+@media (max-width: 760px) {
+  .header-2-0 .mobile-menu-img-wrapper-bottom {
+    margin: 20px 10px !important;
+  }
+}
 @media (min-width: 761px) {
   .header-2-0 {
     position: relative;
