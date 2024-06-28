@@ -230,7 +230,7 @@ html.body-locked {
                     overflow-x: scroll;
                     overflow-y: hidden;
                     height: 100px;
-                    padding: 5px 0;
+                    padding: 5px 0 16px;
                     &__el {
                       display: flex;
                       flex-direction: column;
@@ -609,6 +609,7 @@ html.body-locked {
             -webkit-appearance: none;
             background-position-x: 90%;
             option {
+              display: flex;
               font-size: 12px;
               font-weight: 500;
               line-height: 18px;

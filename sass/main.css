@@ -2700,7 +2700,7 @@ html.body-locked {
   overflow-x: scroll;
   overflow-y: hidden;
   height: 100px;
-  padding: 5px 0;
+  padding: 5px 0 16px;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .menu-fav-categories-swipe-box__el {
   display: flex;
@@ -3071,6 +3071,7 @@ html.body-locked {
   background-position-x: 90%;
 }
 .header-2-0 .mobile-menu-wrapper__content-lang-select .lang-select__select option {
+  display: flex;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
