@@ -718,10 +718,10 @@ html.body-locked {
       height: 10px;
     }
     .mobile-menu {
-      display: none;
+      display: flex;
       position: fixed;
       top: 0;
-      right: calc((100vw - 1728px) / 2);
+      right: -200vw;
       width: 480px;
       height: 100vh;
       background-color: $white;
@@ -730,7 +730,7 @@ html.body-locked {
       transition: 0.4s;
       overflow: hidden;
       &.active {
-        display: flex;
+        right: calc((100vw - 1728px) / 2);
       }
       &-wrapper {
         &__content {
