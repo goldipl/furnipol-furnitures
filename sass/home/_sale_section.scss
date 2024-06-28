@@ -2,7 +2,7 @@
   #sale {
     width: 100%;
     margin: 0 auto;
-    max-width: 1728px;
+    max-width: 1380px;
     h2 {
       margin-bottom: 40px;
     }
@@ -51,6 +51,7 @@
           padding: 10px;
           border: 1px solid $transparent;
           border-radius: 16px;
+          user-select: none;
           &__icons {
             display: flex;
             flex-direction: row;
@@ -196,7 +197,7 @@
     #sale {
       width: 100%;
       margin: 0 auto;
-      max-width: 1728px;
+      max-width: 1380px;
       #sale-slider {
         .swiper-pagination {
           display: none;
