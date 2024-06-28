@@ -32,8 +32,18 @@
       left: calc((100vw - 1728px - 16px) / 2);
       width: 100%;
       max-width: 1728px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       z-index: 9999999999999999999999999999;
+      &::before {
+        content: "";
+        position: absolute;
+        left: -100vw;
+        top: 0;
+        width: 200vw;
+        height: 77px;
+        background-color: $light_grey01;
+        z-index: -1;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
     }
 
     &__logo {
