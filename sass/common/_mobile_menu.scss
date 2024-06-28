@@ -136,7 +136,6 @@ body.body-locked {
             padding: 10px 24px;
             border-bottom: 1px solid $light_grey01;
             width: 100%;
-            cursor: pointer;
             &:first-of-type {
               border-top: 1px solid $light_grey01;
             }
@@ -216,9 +215,13 @@ body.body-locked {
                     margin: 0 0 0 12px;
                     color: $furnipol_black;
                   }
+                  img {
+                    cursor: pointer;
+                  }
                 }
                 &__right {
                   img {
+                    cursor: pointer;
                     object-fit: contain;
                   }
                 }
@@ -250,6 +253,7 @@ body.body-locked {
                       justify-content: center;
                       border-right: 1px solid $light_grey01;
                       border-left: 1px solid $light_grey01;
+                      cursor: pointer;
                       img {
                         width: auto;
                         height: 74px;
@@ -276,6 +280,7 @@ body.body-locked {
                       padding: 10px 24px;
                       border-bottom: 1px solid $light_grey01;
                       width: 100%;
+                      cursor: pointer;
                       &:first-of-type {
                         border-top: 1px solid $light_grey01;
                       }
@@ -327,10 +332,14 @@ body.body-locked {
                             margin: 0 0 0 12px;
                             color: $furnipol_black;
                           }
+                          img {
+                            cursor: pointer;
+                          }
                         }
                         &__right {
                           img {
                             object-fit: contain;
+                            cursor: pointer;
                           }
                         }
                       }
@@ -343,6 +352,7 @@ body.body-locked {
                           padding: 10px 24px;
                           border-bottom: 1px solid $light_grey01;
                           width: 100%;
+                          cursor: pointer;
                           &:first-of-type {
                             border-top: 1px solid $light_grey01;
                           }
@@ -447,10 +457,14 @@ body.body-locked {
                     margin: 0 0 0 12px;
                     color: $furnipol_black;
                   }
+                  img {
+                    cursor: pointer;
+                  }
                 }
                 &__right {
                   img {
                     object-fit: contain;
+                    cursor: pointer;
                   }
                 }
               }
@@ -471,6 +485,7 @@ body.body-locked {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    cursor: pointer;
                     > img {
                       border-radius: 7px;
                       object-fit: cover;
@@ -519,9 +534,13 @@ body.body-locked {
                         margin: 0 0 0 12px;
                         color: $furnipol_black;
                       }
+                      img {
+                        cursor: pointer;
+                      }
                     }
                     &__right {
                       img {
+                        cursor: pointer;
                         object-fit: contain;
                       }
                     }
@@ -535,6 +554,7 @@ body.body-locked {
                       padding: 10px 24px;
                       border-bottom: 1px solid $light_grey01;
                       width: 100%;
+                      cursor: pointer;
                       &:first-of-type {
                         border-top: 1px solid $light_grey01;
                       }

@@ -2615,7 +2615,6 @@ body.body-locked::after {
   padding: 10px 24px;
   border-bottom: 1px solid #f5f5f5;
   width: 100%;
-  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot:first-of-type {
   border-top: 1px solid #f5f5f5;
@@ -2697,7 +2696,11 @@ body.body-locked::after {
   margin: 0 0 0 12px;
   color: #0f0f0f;
 }
+.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-top__left img {
+  cursor: pointer;
+}
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-top__right img {
+  cursor: pointer;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -2729,6 +2732,7 @@ body.body-locked::after {
   justify-content: center;
   border-right: 1px solid #f5f5f5;
   border-left: 1px solid #f5f5f5;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .menu-fav-categories-swipe-box__el img {
   width: auto;
@@ -2752,6 +2756,7 @@ body.body-locked::after {
   padding: 10px 24px;
   border-bottom: 1px solid #f5f5f5;
   width: 100%;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .second-lvl-menu-wrapper__el_box:first-of-type {
   border-top: 1px solid #f5f5f5;
@@ -2806,9 +2811,13 @@ body.body-locked::after {
   margin: 0 0 0 12px;
   color: #0f0f0f;
 }
+.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .second-lvl-menu-wrapper__el .menu-inner-third-lvl-content-top__left img {
+  cursor: pointer;
+}
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .second-lvl-menu-wrapper__el .menu-inner-third-lvl-content-top__right img {
   -o-object-fit: contain;
      object-fit: contain;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .second-lvl-menu-wrapper__el .menu-inner-third-lvl-content-wrapper {
   overflow-y: scroll;
@@ -2820,6 +2829,7 @@ body.body-locked::after {
   padding: 10px 24px;
   border-bottom: 1px solid #f5f5f5;
   width: 100%;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .menu-inner-second-lvl-content .second-lvl-menu-wrapper__el .menu-inner-third-lvl-content-wrapper__el:first-of-type {
   border-top: 1px solid #f5f5f5;
@@ -2921,9 +2931,13 @@ body.body-locked::after {
   margin: 0 0 0 12px;
   color: #0f0f0f;
 }
+.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-top__left img {
+  cursor: pointer;
+}
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-top__right img {
   -o-object-fit: contain;
      object-fit: contain;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-bottom {
   height: auto;
@@ -2944,6 +2958,7 @@ body.body-locked::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-bottom__slot .menu-img-col-box > img {
   border-radius: 7px;
@@ -2995,7 +3010,11 @@ body.body-locked::after {
   margin: 0 0 0 12px;
   color: #0f0f0f;
 }
+.header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-bottom .menu-inner-third-lvl-content-top__left img {
+  cursor: pointer;
+}
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-bottom .menu-inner-third-lvl-content-top__right img {
+  cursor: pointer;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -3009,6 +3028,7 @@ body.body-locked::after {
   padding: 10px 24px;
   border-bottom: 1px solid #f5f5f5;
   width: 100%;
+  cursor: pointer;
 }
 .header-2-0 .mobile-menu-wrapper__content-menu-list .mobile-menu-list__slot .mobile-menu-img-wrapper-bottom .menu-inner-third-lvl-content-wrapper__el:first-of-type {
   border-top: 1px solid #f5f5f5;
