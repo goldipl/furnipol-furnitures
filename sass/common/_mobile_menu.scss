@@ -20,21 +20,21 @@ body.body-locked {
 .header-2-0 {
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar-thumb {
-    background-color: $light_grey02;
+    background-color: $light_grey04;
     width: 3px;
     height: 3px;
   }
 
   /* For Firefox */
   ::-moz-scrollbar-thumb {
-    background-color: $light_grey02;
+    background-color: $light_grey04;
     width: 3px;
     height: 3px;
   }
 
   /* For Internet Explorer and Edge */
   ::-ms-thumb {
-    background-color: $light_grey02;
+    background-color: $light_grey04;
     width: 3px;
     height: 3px;
   }
@@ -703,21 +703,18 @@ body.body-locked {
 
     /* For Webkit browsers (Chrome, Safari) */
     ::-webkit-scrollbar-thumb {
-      background-color: $light_grey02;
       width: 10px;
       height: 10px;
     }
 
     /* For Firefox */
     ::-moz-scrollbar-thumb {
-      background-color: $light_grey02;
       width: 10px;
       height: 10px;
     }
 
     /* For Internet Explorer and Edge */
     ::-ms-thumb {
-      background-color: $light_grey02;
       width: 10px;
       height: 10px;
     }
