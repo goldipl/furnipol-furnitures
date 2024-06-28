@@ -49,44 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   });
 
-  let favSwiper;
-
-  const toggleFavSwiper = () => {
-    if (window.innerWidth < 1220) {
-      if (!favSwiper) {
-        favSwiper = new Swiper('.fav-cat-swiper', {
-          direction: 'horizontal',
-          slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 10,
-          navigation: {
-            nextEl: '.swiper-button-next.fav-swiper-next',
-            prevEl: '.swiper-button-prev.fav-swiper-prev',
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          breakpoints: {
-            200: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
-              spaceBetween: 10,
-            },
-          },
-        });
-      }
-    } else {
-      if (favSwiper) {
-        favSwiper.destroy(true, true);
-        favSwiper = undefined;
-      }
-    }
-  }
-
-  toggleFavSwiper();
-  window.addEventListener('resize', toggleFavSwiper);
-
   let gardenTimeSwiper;
 
   const toggleGardenTimeSwiper = () => {

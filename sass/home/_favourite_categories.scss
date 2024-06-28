@@ -5,11 +5,7 @@
     margin: 0 auto;
     max-width: 1380px;
     margin-bottom: 55px;
-    .swiper-pagination {
-      display: none;
-    }
-    .swiper-button-next.fav-swiper-next,
-    .swiper-button-prev.fav-swiper-prev {
+    .toggle-favourite-categories-button {
       display: none;
     }
     .favourite-categories {
@@ -67,32 +63,48 @@
 @media (max-width: 1220px) {
   .main-2-0 {
     #favourite-categories {
-      .swiper-button-prev.fav-swiper-prev {
-        display: none;
-      }
-      .swiper-button-next.fav-swiper-next {
-        display: none;
-      }
-      .swiper-pagination {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        bottom: 0;
+      .toggle-favourite-categories-button {
+        display: block;
+        margin: 16px auto;
+        padding: 10px 20px;
+        background-color: unset;
+        color: $grey01;
+        border: none;
+        cursor: pointer;
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 16.5px;
+        text-align: left;
+        svg {
+          margin-left: 10px;
+          object-fit: contain;
+          transition: 0.5s;
+          &.rotated {
+            transform: rotate(180deg);
+          }
+        }
       }
       .favourite-categories {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         padding: 0;
         gap: 0;
+        height: 290px;
+        overflow: hidden;
+        &.expanded {
+          max-height: none;
+          height: auto;
+        }
         &-slot {
-          width: 50% !important;
+          min-height: 120px;
+          width: 30% !important;
           &:hover {
             border: unset;
           }
           &__img {
             img {
-              width: 180px;
+              width: 100%;
               height: auto;
               object-fit: cover;
             }

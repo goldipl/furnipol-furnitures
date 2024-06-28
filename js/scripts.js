@@ -42,6 +42,19 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 });
 
+// Toggling show more fav categories btn
+document.addEventListener("DOMContentLoaded", () => {
+	const toggleFavButton = document.querySelector(".toggle-favourite-categories-button span");
+	const toggleFavButtonArrow = document.querySelector(".toggle-favourite-categories-button svg");
+	const favCategoriesBox = document.querySelector(".favourite-categories");
+
+	toggleFavButton.addEventListener("click", () => {
+		favCategoriesBox.classList.toggle("expanded");
+		toggleFavButtonArrow.classList.toggle("rotated");
+		toggleFavButton.textContent = favCategoriesBox.classList.contains("expanded") ? "Pokaż mniej" : "Pokaż więcej";
+	});
+});
+
 // Toggling mobile footer contact buttons
 document.addEventListener("DOMContentLoaded", () => {
     const footerContactBtns = document.querySelectorAll(".footer-2-0 .footer-wrapper-top-col .footer-col-wrapper__title");
