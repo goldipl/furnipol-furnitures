@@ -2477,22 +2477,22 @@ html.body-locked {
 }
 .header-2-0 ::-webkit-scrollbar-thumb {
   background-color: #a8a8a9;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
 }
 .header-2-0 ::-moz-scrollbar-thumb {
   background-color: #a8a8a9;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
 }
 .header-2-0 ::-ms-thumb {
   background-color: #a8a8a9;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
 }
 .header-2-0 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
 }
 .header-2-0 .mobile-menu {
   position: fixed;
@@ -3123,6 +3123,29 @@ html.body-locked {
 @media (min-width: 761px) {
   .header-2-0 {
     position: relative;
+    /* For Webkit browsers (Chrome, Safari) */
+    /* For Firefox */
+    /* For Internet Explorer and Edge */
+    /* For standard scrollbars (if supported) */
+  }
+  .header-2-0 ::-webkit-scrollbar-thumb {
+    background-color: #a8a8a9;
+    width: 2px;
+    height: 2px;
+  }
+  .header-2-0 ::-moz-scrollbar-thumb {
+    background-color: #a8a8a9;
+    width: 2px;
+    height: 2px;
+  }
+  .header-2-0 ::-ms-thumb {
+    background-color: #a8a8a9;
+    width: 2px;
+    height: 2px;
+  }
+  .header-2-0 ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
   }
   .header-2-0 .mobile-menu {
     display: none;

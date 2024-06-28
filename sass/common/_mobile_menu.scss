@@ -7,28 +7,28 @@ html.body-locked {
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar-thumb {
     background-color: $light_grey02;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
   }
 
   /* For Firefox */
   ::-moz-scrollbar-thumb {
     background-color: $light_grey02;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
   }
 
   /* For Internet Explorer and Edge */
   ::-ms-thumb {
     background-color: $light_grey02;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
   }
 
   /* For standard scrollbars (if supported) */
   ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
   }
   .mobile-menu {
     position: fixed;
@@ -674,6 +674,33 @@ html.body-locked {
 @media (min-width: 761px) {
   .header-2-0 {
     position: relative;
+
+    /* For Webkit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar-thumb {
+      background-color: $light_grey02;
+      width: 2px;
+      height: 2px;
+    }
+
+    /* For Firefox */
+    ::-moz-scrollbar-thumb {
+      background-color: $light_grey02;
+      width: 2px;
+      height: 2px;
+    }
+
+    /* For Internet Explorer and Edge */
+    ::-ms-thumb {
+      background-color: $light_grey02;
+      width: 2px;
+      height: 2px;
+    }
+
+    /* For standard scrollbars (if supported) */
+    ::-webkit-scrollbar {
+      width: 2px;
+      height: 2px;
+    }
     .mobile-menu {
       display: none;
       position: fixed;
