@@ -3,6 +3,20 @@ html.body-locked {
   overflow: hidden;
 }
 
+body.body-locked {
+  &::after {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6784313725);
+    content: "";
+    display: block !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 9999999;
+  }
+}
+
 .header-2-0 {
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar-thumb {
@@ -144,12 +158,10 @@ html.body-locked {
               display: flex;
               width: 100%;
               font-size: 16px;
-              font-weight: 600;
               line-height: 33px;
               text-align: left;
               color: $grey01;
               text-decoration: none;
-              text-transform: uppercase;
             }
             .arrow-menu-box {
               display: flex;
@@ -448,10 +460,10 @@ html.body-locked {
                 flex-wrap: wrap;
                 flex-direction: row;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-start;
                 gap: 8px;
-                margin-top: 20px;
                 overflow-y: scroll;
+                margin: 20px 60px;
                 &__slot {
                   margin-bottom: 12px;
                   .menu-img-col-box {
