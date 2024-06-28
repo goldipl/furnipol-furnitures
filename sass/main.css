@@ -2012,6 +2012,9 @@ body {
   .header-2-0 .top-header {
     height: 60px;
   }
+  .header-2-0 .top-header.fixed-header::before {
+    display: none;
+  }
   .header-2-0 .top-header__logo {
     margin: 0 18px;
   }

@@ -386,6 +386,12 @@
     .top-header {
       height: 60px;
 
+      &.fixed-header {
+        &::before {
+          display: none;
+        }
+      }
+
       &__logo {
         margin: 0 18px;
         .top-header__desktop-logo {
