@@ -176,6 +176,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.main-2-0 #sale #sale-slider .swiper-button-prev:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
+}
 .main-2-0 #sale #sale-slider .swiper-button-next {
   height: 55px;
   width: 55px;
@@ -192,6 +199,13 @@ body {
   font-size: 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.main-2-0 #sale #sale-slider .swiper-button-next:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
 }
 .main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide {
   position: relative;
@@ -863,6 +877,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-prev.bundle-promo-swiper-prev:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
+}
 .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-next {
   position: absolute;
   left: 880px !important;
@@ -881,6 +902,13 @@ body {
   font-size: 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-next.bundle-promo-swiper-next:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
 }
 
 @media (max-width: 1220px) {
@@ -1542,6 +1570,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-prev:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
+}
 .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-next {
   right: 20px;
   height: 55px;
@@ -1558,6 +1593,13 @@ body {
   font-size: 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-button-next:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
 }
 .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-pagination {
   display: none;
