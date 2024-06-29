@@ -1740,7 +1740,7 @@ body {
   border-radius: 7px;
   box-sizing: border-box;
   height: 45px;
-  width: auto;
+  width: 45px;
 }
 .header-2-0 .top-header__buttons .my-account a span {
   font-size: 14px;
@@ -1753,6 +1753,10 @@ body {
   padding: 8px 4px;
   border-radius: 7px;
   box-sizing: border-box;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
 }
 .header-2-0 .top-header__buttons .favourites:hover {
   background-color: #d9d9d9;
@@ -1760,10 +1764,14 @@ body {
 .header-2-0 .top-header__buttons .cart {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 45px;
   padding: 8px 4px;
   border-radius: 7px;
   box-sizing: border-box;
+  height: 45px;
+  width: 45px;
 }
 .header-2-0 .top-header__buttons .cart:hover {
   background-color: #d9d9d9;
@@ -1771,7 +1779,7 @@ body {
 .header-2-0 .top-header__buttons .cart-quantity {
   position: absolute;
   top: 0px;
-  right: -9px;
+  right: -6px;
   display: flex;
   justify-content: center;
   align-items: center;

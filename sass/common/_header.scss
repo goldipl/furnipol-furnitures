@@ -117,7 +117,7 @@
             border-radius: 7px;
             box-sizing: border-box;
             height: 45px;
-            width: auto;
+            width: 45px;
           }
           span {
             font-size: 14px;
@@ -133,6 +133,10 @@
         padding: 8px 4px;
         border-radius: 7px;
         box-sizing: border-box;
+        height: 45px;
+        width: 45px;
+        justify-content: center;
+        align-items: center;
         &:hover {
           background-color: $light_grey03;
         }
@@ -141,17 +145,21 @@
       .cart {
         position: relative;
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin-right: 45px;
         padding: 8px 4px;
         border-radius: 7px;
         box-sizing: border-box;
+        height: 45px;
+        width: 45px;
         &:hover {
           background-color: $light_grey03;
         }
         &-quantity {
           position: absolute;
           top: 0px;
-          right: -9px;
+          right: -6px;
           display: flex;
           justify-content: center;
           align-items: center;
