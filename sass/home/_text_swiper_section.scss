@@ -206,6 +206,7 @@
               text-decoration: none;
               border-radius: 16px !important;
               width: 80% !important;
+              height: 60vw !important;
               margin-right: 20px !important;
               overflow: hidden;
 
@@ -213,8 +214,11 @@
                 position: relative;
                 border-radius: 16px;
                 width: max-content;
+                height: 100%;
 
                 img {
+                  width: 80vw;
+                  height: 60vw;
                   border-radius: 16px;
                   object-fit: cover;
                 }

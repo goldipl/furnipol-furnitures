@@ -965,6 +965,7 @@ body {
     text-decoration: none;
     border-radius: 16px !important;
     width: 80% !important;
+    height: 60vw !important;
     margin-right: 20px !important;
     overflow: hidden;
   }
@@ -973,8 +974,11 @@ body {
     border-radius: 16px;
     width: -moz-max-content;
     width: max-content;
+    height: 100%;
   }
   .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .bundle-promo-slot__img img {
+    width: 80vw;
+    height: 60vw;
     border-radius: 16px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1668,8 +1672,19 @@ body {
     text-decoration: none;
     border-radius: 16px !important;
     width: 80vw !important;
+    height: 60vw;
     margin-right: 20px !important;
     overflow: hidden;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot__img {
+    width: 100%;
+    height: 100%;
+  }
+  .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot__img img {
+    width: 80vw;
+    height: 60vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .main-2-0 #collection-tabs .tab-content .collection-tabs-swiper .swiper-wrapper .collection-tabs-slot__title {
     display: flex;
