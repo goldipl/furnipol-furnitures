@@ -218,7 +218,7 @@
       left: calc((100vw - 1728px - 16px) / 2);
       width: 100%;
       max-width: 1728px;
-      z-index: 9999999999999999999999999999;
+      z-index: 9999999;
       &::before {
         content: "";
         position: absolute;
