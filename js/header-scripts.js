@@ -140,3 +140,26 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// Mobile furnitures opening menu
+$(document).ready(() => {
+  $('.header-2-0 .bottom-header-nav__el.furnitures-element span a').click((e) => {
+    e.preventDefault();
+    $(this).toggleClass('open');
+    $('.header-2-0 .mobile-menu').addClass('active');
+    $('body').addClass('body-locked');
+    $('html').addClass('body-locked');
+    $('.menu-inner-second-lvl.furnitures-inner-menu').addClass('active');
+  });
+});
+
+// Mobile rooms opening menu
+$(document).ready(() => {
+  $('.header-2-0 .bottom-header-nav__el.rooms-element span a').click((e) => {
+    e.preventDefault();
+    $(this).toggleClass('open');
+    $('.header-2-0 .mobile-menu').addClass('active');
+    $('body').addClass('body-locked');
+    $('html').addClass('body-locked');
+    $('.mobile-menu-img-wrapper.rooms-inner-menu').addClass('active');
+  });
+});
