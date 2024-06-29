@@ -789,6 +789,10 @@ body {
   background-color: #eb7d3f;
   border-radius: 7px;
 }
+.main-2-0 #text-swiper-section .text-swiper-section-wrapper__col .text-swiper-btn:hover {
+  filter: brightness(1.08);
+  -webkit-filter: brightness(1.08);
+}
 .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .bundle-promo-slot {
   position: relative;
   text-decoration: none;
@@ -1180,6 +1184,10 @@ body {
   text-align: left;
   cursor: pointer;
 }
+.main-2-0 #newsletter-section .newsletter-wrapper-content-right .newsletter-form .form-input-box button:hover {
+  filter: brightness(1.08);
+  -webkit-filter: brightness(1.08);
+}
 .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox {
   display: flex;
   align-items: center;
@@ -1445,6 +1453,10 @@ body {
   border: 1px solid #eb7d3f;
   background-color: #eb7d3f;
   color: #ffffff;
+}
+.main-2-0 #collection-tabs .tabs-container .nav-pills .pill.active:hover {
+  filter: brightness(1.08);
+  -webkit-filter: brightness(1.08);
 }
 .main-2-0 #collection-tabs .tabs-container .nav-pills .pill:hover {
   border: 1px solid #a8a8a9;

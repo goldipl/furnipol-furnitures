@@ -41,6 +41,10 @@
           cursor: pointer;
           background-color: $furnipol_orange;
           border-radius: 7px;
+          &:hover {
+            filter: brightness(1.08);
+            -webkit-filter: brightness(1.08);
+          }
         }
       }
       &__swiper {

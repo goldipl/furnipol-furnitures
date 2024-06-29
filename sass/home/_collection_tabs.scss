@@ -48,6 +48,10 @@
             border: 1px solid $furnipol_orange;
             background-color: $furnipol_orange;
             color: $white;
+            &:hover {
+              filter: brightness(1.08);
+              -webkit-filter: brightness(1.08);
+            }
           }
           &:hover {
             border: 1px solid $light_grey02;
