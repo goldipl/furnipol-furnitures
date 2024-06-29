@@ -375,6 +375,15 @@
               background-size: cover;
               background-repeat: no-repeat;
             }
+            &:hover {
+              &::after {
+                background: url(./../assets/icons/home/sale_section/swiper-arrow-right-hover.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 55px;
+                width: 55px;
+              }
+            }
           }
           .swiper-button-prev {
             height: 55px;
@@ -391,6 +400,15 @@
               font-size: 0;
               background-size: cover;
               background-repeat: no-repeat;
+            }
+            &:hover {
+              &::after {
+                background: url(./../assets/icons/home/sale_section/swiper-arrow-left-hover.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 55px;
+                width: 55px;
+              }
             }
           }
         }

@@ -2112,6 +2112,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-next:hover::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-next:hover::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-next:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-right-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
+}
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-prev,
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-prev,
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-prev {
@@ -2132,6 +2141,15 @@ body {
   font-size: 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-furnitures-swiper .swiper-button-prev:hover::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-rooms-swiper .swiper-button-prev:hover::after,
+.header-2-0 .bottom-header-nav .bottom-header-nav__wrapper .menu-available-swiper .swiper-button-prev:hover::after {
+  background: url(./../assets/icons/home/sale_section/swiper-arrow-left-hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
 }
 
 @media (max-width: 1728px) {
