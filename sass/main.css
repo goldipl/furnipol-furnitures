@@ -2011,6 +2011,7 @@ body {
           user-select: none;
   text-decoration: none;
   color: #0f0f0f;
+  white-space: pre;
 }
 .header-2-0 .bottom-header-nav .bottom-header-nav__wrapper {
   display: none;
