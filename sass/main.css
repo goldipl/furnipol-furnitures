@@ -1817,6 +1817,26 @@ body {
   border-top: 2px solid #ffffff;
   margin: 0 auto;
 }
+.header-2-0 .bottom-header.fixed {
+  background-color: #f5f5f5;
+  position: fixed;
+  top: 77px;
+  left: calc((100vw - 1728px - 16px) / 2);
+  width: 100%;
+  max-width: 1728px;
+  z-index: 10000000000000000000000000000;
+}
+.header-2-0 .bottom-header.fixed::before {
+  content: "";
+  position: absolute;
+  left: -100vw;
+  top: 0;
+  width: 200vw;
+  height: 49px;
+  background-color: #f5f5f5;
+  z-index: -1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 .header-2-0 .bottom-header-nav {
   display: flex;
   flex-direction: row;
@@ -2051,6 +2071,12 @@ body {
   .header-2-0 .bottom-header {
     border-top: 1px solid #ffffff;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1019607843);
+  }
+  .header-2-0 .bottom-header.fixed {
+    position: static;
+  }
+  .header-2-0 .bottom-header.fixed::before {
+    display: none;
   }
   .header-2-0 .bottom-header-nav {
     justify-content: flex-start;

@@ -202,6 +202,28 @@
     box-sizing: border-box;
     border-top: 2px solid $white;
     margin: 0 auto;
+
+    &.fixed {
+      background-color: $light_grey01;
+      position: fixed;
+      top: 77px;
+      left: calc((100vw - 1728px - 16px) / 2);
+      width: 100%;
+      max-width: 1728px;
+      z-index: 9999999999999999999999999999;
+      &::before {
+        content: "";
+        position: absolute;
+        left: -100vw;
+        top: 0;
+        width: 200vw;
+        height: 49px;
+        background-color: $light_grey01;
+        z-index: -1;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+    }
+
     &-nav {
       display: flex;
       flex-direction: row;
@@ -429,6 +451,13 @@
     .bottom-header {
       border-top: 1px solid $white;
       box-shadow: 0px 4px 6px -1px #0000001a;
+
+      &.fixed {
+        position: static;
+        &::before {
+          display: none;
+        }
+      }
 
       &-nav {
         justify-content: flex-start;

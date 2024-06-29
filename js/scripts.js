@@ -71,3 +71,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// Fixed bottom header
+document.addEventListener("DOMContentLoaded", () => {
+    const bottomHeader = document.querySelector('.header-2-0 .bottom-header');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+        if (scrollTop < lastScrollTop) {
+            // Scrolling up
+            bottomHeader.classList.add('fixed');
+        } else {
+            // Scrolling down
+            bottomHeader.classList.remove('fixed');
+        }
+
+        lastScrollTop = scrollTop;
+    });
+});
