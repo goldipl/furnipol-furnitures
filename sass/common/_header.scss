@@ -402,6 +402,11 @@
         left: 0;
       }
     }
+    .bottom-header {
+      &.fixed {
+        left: 0;
+      }
+    }
   }
 }
 

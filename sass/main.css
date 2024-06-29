@@ -2134,6 +2134,9 @@ body {
   .header-2-0 .top-header.fixed-header {
     left: 0;
   }
+  .header-2-0 .bottom-header.fixed {
+    left: 0;
+  }
 }
 @media (max-width: 1220px) {
   .header-2-0 {
