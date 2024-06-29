@@ -1,12 +1,39 @@
 // Hamburger menu
 $(document).ready(function(){
+    // Hamburger menu click listener for opening the menu
     $('.header-2-0 .hamburger-menu').click(function(){
         $(this).toggleClass('open');
         $('.header-2-0 .mobile-menu').addClass('active');
         $('body').addClass('body-locked');
         $('html').addClass('body-locked');
     });
+
+    // Close icon click listener for closing the menu
+    const closeIcons = document.querySelectorAll('.header-2-0 .mobile-menu-wrapper .close-icon');
+    const mobileMenu = document.querySelector('.header-2-0 .mobile-menu');
+
+    closeIcons.forEach(item => {
+        item.addEventListener('click', () => {
+            closeMenu();
+        });
+    });
+
+    // Document click listener for closing the menu when clicking outside of it
+    document.addEventListener('click', (event) => {
+        if (!mobileMenu.contains(event.target) && !event.target.closest('.hamburger-menu') && mobileMenu.classList.contains('active')) {
+            closeMenu();
+        }
+    });
+
+    // Function to close the menu
+    function closeMenu() {
+        $('.header-2-0 .hamburger-menu').removeClass('open');
+        mobileMenu.classList.remove('active');
+        document.body.classList.remove('body-locked');
+        document.getElementsByTagName('html')[0].classList.remove('body-locked');
+    }
 });
+
 
 // Footer year
 $(document).ready(function(){
