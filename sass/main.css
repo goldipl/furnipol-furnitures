@@ -1921,6 +1921,7 @@ body {
   background-color: #d9d9d9;
 }
 .header-2-0 .bottom-header {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2021,7 +2022,7 @@ body {
   margin: auto;
   max-width: 1728px;
   position: absolute;
-  top: 127px;
+  top: 49px;
   left: calc((100vw - 1744px) / 2);
   z-index: 2;
   background-color: #ffffff;

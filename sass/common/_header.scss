@@ -202,6 +202,7 @@
   }
 
   .bottom-header {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -300,7 +301,7 @@
         margin: auto;
         max-width: 1728px;
         position: absolute;
-        top: 127px;
+        top: 49px;
         left: calc((100vw - 1744px) / 2);
         z-index: 2;
         background-color: $white;
