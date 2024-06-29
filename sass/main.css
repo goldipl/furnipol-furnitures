@@ -242,11 +242,22 @@ body {
 .main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon img {
   width: 16px;
   height: 16px;
+  pointer-events: none;
+}
+.main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .compare-box-icon img.active,
+.main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon img.active {
+  filter: invert(53%) sepia(68%) saturate(530%) hue-rotate(335deg) brightness(95%) contrast(93%);
+  -webkit-filter: invert(53%) sepia(68%) saturate(530%) hue-rotate(335deg) brightness(95%) contrast(93%);
 }
 .main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .compare-box-icon:hover,
 .main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon:hover {
-  background-color: #f5f5f5;
   border: 1px solid #25262b;
+}
+.main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon img.active {
+  background: url(./../../assets/icons/home/sale_section/orange-full-heart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__img {
   display: flex;

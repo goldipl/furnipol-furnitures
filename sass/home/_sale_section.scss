@@ -91,10 +91,26 @@
               img {
                 width: 16px;
                 height: 16px;
+                pointer-events: none;
+                &.active {
+                  filter: invert(53%) sepia(68%) saturate(530%)
+                    hue-rotate(335deg) brightness(95%) contrast(93%);
+                  -webkit-filter: invert(53%) sepia(68%) saturate(530%)
+                    hue-rotate(335deg) brightness(95%) contrast(93%);
+                }
               }
               &:hover {
-                background-color: $light_grey01;
                 border: 1px solid $grey01;
+              }
+            }
+            .fav-box-icon {
+              img {
+                &.active {
+                  background: url(./../../assets/icons/home/sale_section/orange-full-heart.svg);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                }
               }
             }
           }

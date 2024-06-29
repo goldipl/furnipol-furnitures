@@ -90,3 +90,28 @@ document.addEventListener("DOMContentLoaded", () => {
         lastScrollTop = scrollTop;
     });
 });
+
+// Select all fav and compare buttons within the sale slider
+const favSwiperButtons = document.querySelectorAll('.main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon');
+const compareSwiperButtons = document.querySelectorAll('.main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .compare-box-icon');
+
+// Function to toggle the active class on the child img element
+function toggleActiveClass(event) {
+    const imgElement = event.target.querySelector('img');
+
+    // Check if there is an img element inside the clicked button
+    if (imgElement) {
+        imgElement.classList.toggle('active');
+    }
+}
+
+// Attach event listeners to fav buttons
+favSwiperButtons.forEach(button => {
+    button.addEventListener('click', toggleActiveClass);
+});
+
+// Attach event listeners to compare buttons
+compareSwiperButtons.forEach(button => {
+    button.addEventListener('click', toggleActiveClass);
+});
+
