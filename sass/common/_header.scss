@@ -24,6 +24,7 @@
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
+    border-bottom: 2px solid $white;
 
     &.fixed-header {
       background-color: $light_grey01;
@@ -42,7 +43,7 @@
         height: 77px;
         background-color: $light_grey01;
         z-index: -1;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid $white;
       }
     }
 
@@ -220,6 +221,7 @@
       width: 100%;
       max-width: 1728px;
       z-index: 9999999;
+      border-top: 0;
       &::before {
         content: "";
         position: absolute;
