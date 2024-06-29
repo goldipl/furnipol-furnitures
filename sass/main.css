@@ -2212,7 +2212,6 @@ body {
     display: none;
   }
   .header-2-0 .bottom-header {
-    border-top: 1px solid #ffffff;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1019607843);
     justify-content: flex-start;
   }
@@ -2241,11 +2240,16 @@ body {
   }
 }
 @media (max-width: 640px) {
+  .header-2-0 .bottom-header-nav {
+    width: 100%;
+  }
   .header-2-0 .bottom-header-nav__el {
     display: none;
   }
   .header-2-0 .bottom-header-nav__el:nth-of-type(1), .header-2-0 .bottom-header-nav__el:nth-of-type(2), .header-2-0 .bottom-header-nav__el:nth-of-type(3) {
     display: flex;
+    width: 33%;
+    justify-content: center;
   }
 }
 .footer-2-0 {

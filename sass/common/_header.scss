@@ -494,7 +494,6 @@
     }
 
     .bottom-header {
-      border-top: 1px solid $white;
       box-shadow: 0px 4px 6px -1px #0000001a;
       justify-content: flex-start;
 
@@ -530,12 +529,15 @@
   .header-2-0 {
     .bottom-header {
       &-nav {
+        width: 100%;
         &__el {
           display: none;
           &:nth-of-type(1),
           &:nth-of-type(2),
           &:nth-of-type(3) {
             display: flex;
+            width: 33%;
+            justify-content: center;
           }
         }
       }
