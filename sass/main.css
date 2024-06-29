@@ -894,6 +894,9 @@ body {
     left: 20px;
     bottom: 24px;
   }
+  .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper {
+    padding-bottom: 24px;
+  }
   .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .bundle-promo-slot {
     position: relative;
     text-decoration: none;
@@ -927,6 +930,9 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 16px;
+  }
+  .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-pagination {
+    bottom: 0;
   }
   .main-2-0 #text-swiper-section .text-swiper-section-wrapper__swiper .bundle-promo-swiper .swiper-button-prev.bundle-promo-swiper-prev {
     display: none;

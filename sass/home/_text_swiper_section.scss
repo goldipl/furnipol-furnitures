@@ -178,6 +178,7 @@
         }
         &__swiper {
           .bundle-promo-swiper {
+            padding-bottom: 24px;
             .bundle-promo-slot {
               position: relative;
               text-decoration: none;
@@ -212,6 +213,9 @@
                 height: 100%;
                 border-radius: 16px;
               }
+            }
+            .swiper-pagination {
+              bottom: 0;
             }
             .swiper-button-prev.bundle-promo-swiper-prev {
               display: none;
