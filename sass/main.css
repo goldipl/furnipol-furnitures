@@ -448,7 +448,7 @@ body {
   }
   .main-2-0 #favourite-categories .favourite-categories-slot__img img {
     width: 100%;
-    height: auto;
+    height: 94px;
     -o-object-fit: cover;
        object-fit: cover;
   }
