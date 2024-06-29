@@ -1124,7 +1124,6 @@ body {
   margin: 0 10px 0 0;
 }
 .main-2-0 #newsletter-section .newsletter-wrapper-content-left .newsletter-text-top h2.first-text {
-  font-size: 22px;
   font-weight: 500;
   line-height: 33px;
   text-align: left;
@@ -1239,7 +1238,7 @@ body {
   display: flex;
   align-items: center;
   height: 25px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 25px;
   text-align: left;
@@ -1249,7 +1248,7 @@ body {
 .main-2-0 #newsletter-section .newsletter-wrapper-content-right .checkbox .custom-checkbox-container a {
   display: inline-flex;
   margin-left: 4px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 41px;
   text-align: left;
