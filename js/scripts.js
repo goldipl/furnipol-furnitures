@@ -20,10 +20,13 @@ $(document).ready(function(){
 
     // Document click listener for closing the menu when clicking outside of it
     document.addEventListener('click', (event) => {
-        if (!mobileMenu.contains(event.target) && !event.target.closest('.hamburger-menu') && mobileMenu.classList.contains('active')) {
-            closeMenu();
+        if (window.innerWidth >= 1220) {
+            if (!mobileMenu.contains(event.target) && !event.target.closest('.hamburger-menu') && mobileMenu.classList.contains('active')) {
+                closeMenu();
+            }
         }
     });
+    
 
     // Function to close the menu
     function closeMenu() {
