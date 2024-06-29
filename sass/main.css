@@ -1965,10 +1965,13 @@ body {
   box-sizing: border-box;
   cursor: pointer;
   border-right: 2px solid #ffffff;
-  border-bottom: 4px solid rgba(255, 255, 255, 0);
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+.header-2-0 .bottom-header-nav__el.blog span a, .header-2-0 .bottom-header-nav__el.sale span a {
+  font-weight: 700;
 }
 .header-2-0 .bottom-header-nav__el:hover {
-  border-bottom: 4px solid #eb7d3f;
+  border-bottom: 3px solid #eb7d3f;
 }
 .header-2-0 .bottom-header-nav__el:hover > span + .bottom-header-nav__wrapper {
   display: flex;
@@ -1990,7 +1993,6 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
-  text-transform: uppercase;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -2004,10 +2006,9 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 21px;
   padding: 14px 24px;
-  text-transform: uppercase;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;

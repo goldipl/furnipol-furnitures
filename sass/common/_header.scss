@@ -246,9 +246,17 @@
         box-sizing: border-box;
         cursor: pointer;
         border-right: 2px solid $white;
-        border-bottom: 4px solid $transparent;
+        border-bottom: 3px solid $transparent;
+        &.blog,
+        &.sale {
+          span {
+            a {
+              font-weight: 700;
+            }
+          }
+        }
         &:hover {
-          border-bottom: 4px solid $furnipol_orange;
+          border-bottom: 3px solid $furnipol_orange;
           > span + .bottom-header-nav__wrapper {
             display: flex;
           }
@@ -272,7 +280,6 @@
           font-size: 14px;
           font-weight: 700;
           line-height: 21px;
-          text-transform: uppercase;
           user-select: none;
           color: $furnipol_black;
           &.without-link {
@@ -283,10 +290,9 @@
             justify-content: center;
             align-items: center;
             font-size: 14px;
-            font-weight: 700;
+            font-weight: 500;
             line-height: 21px;
             padding: 14px 24px;
-            text-transform: uppercase;
             user-select: none;
             text-decoration: none;
             color: $furnipol_black;
