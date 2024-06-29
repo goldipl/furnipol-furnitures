@@ -326,6 +326,7 @@
         .menu-rooms-swiper,
         .menu-available-swiper {
           width: 100%;
+          padding: 0 40px;
           .swiper-wrapper {
             width: 100%;
             max-width: 1428px;
@@ -352,61 +353,65 @@
                   padding: 0;
                   text-transform: none;
                   user-select: none;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
                 }
               }
             }
           }
           .swiper-button-next {
             position: absolute;
-            right: 40px;
-            height: 55px;
-            width: 55px;
+            right: -16px;
+            height: 40px;
+            width: 40px;
             right: 20px;
             &::after {
               font-size: 0;
               letter-spacing: 0;
               font-variant: initial;
               line-height: 1;
-              background: url(./../assets/icons/home/sale_section/swiper-arrow-right.svg);
-              height: 55px;
-              width: 55px;
+              background: url(./../assets/icons/header/header-menu-arrow-next.svg);
+              height: 40px;
+              width: 40px;
               font-size: 0;
               background-size: cover;
               background-repeat: no-repeat;
             }
             &:hover {
               &::after {
-                background: url(./../assets/icons/home/sale_section/swiper-arrow-right-hover.svg);
+                background: url(./../assets/icons/header/header-menu-arrow-next-hover.svg);
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 55px;
-                width: 55px;
+                height: 40px;
+                width: 40px;
               }
             }
           }
           .swiper-button-prev {
-            height: 55px;
-            width: 55px;
-            left: 40px;
+            height: 40px;
+            width: 40px;
+            left: 0;
             &::after {
               font-size: 0;
               letter-spacing: 0;
               font-variant: initial;
               line-height: 1;
-              background: url(./../assets/icons/home/sale_section/swiper-arrow-left.svg);
-              height: 55px;
-              width: 55px;
+              background: url(./../assets/icons/header/header-menu-arrow-prev.svg);
+              height: 40px;
+              width: 40px;
               font-size: 0;
               background-size: cover;
               background-repeat: no-repeat;
             }
             &:hover {
               &::after {
-                background: url(./../assets/icons/home/sale_section/swiper-arrow-left-hover.svg);
+                background: url(./../assets/icons/header/header-menu-arrow-prev-hover.svg);
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 55px;
-                width: 55px;
+                height: 40px;
+                width: 40px;
               }
             }
           }
