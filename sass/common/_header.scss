@@ -453,7 +453,8 @@
       box-shadow: 0px 4px 6px -1px #0000001a;
 
       &.fixed {
-        position: static;
+        top: 60px;
+        left: 0;
         &::before {
           display: none;
         }
