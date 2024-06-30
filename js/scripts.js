@@ -3,6 +3,9 @@ $(document).ready(function(){
     // Hamburger menu click listener for opening the menu
     $('.header-2-0 .hamburger-menu').click(function(){
         $(this).toggleClass('open');
+        $('.mobile-menu-img-wrapper').removeClass('active');
+        $('.menu-inner-second-lvl').removeClass('active');
+        $('.menu-inner-third-lvl-content').removeClass('active');
         $('.header-2-0 .mobile-menu').addClass('active');
         $('body').addClass('body-locked');
         $('html').addClass('body-locked');

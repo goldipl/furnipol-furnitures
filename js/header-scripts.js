@@ -148,6 +148,10 @@ $(document).ready(() => {
     $('.header-2-0 .mobile-menu').addClass('active');
     $('body').addClass('body-locked');
     $('html').addClass('body-locked');
+    $('.mobile-menu-img-wrapper').removeClass('active');
+    $('.menu-inner-second-lvl').removeClass('active');
+    $('.menu-inner-third-lvl-content').removeClass('active');
+    $('.mobile-menu-img-wrapper.rooms-inner-menu').removeClass('active');
     $('.menu-inner-second-lvl.furnitures-inner-menu').addClass('active');
   });
 });
@@ -160,6 +164,10 @@ $(document).ready(() => {
     $('.header-2-0 .mobile-menu').addClass('active');
     $('body').addClass('body-locked');
     $('html').addClass('body-locked');
+    $('.mobile-menu-img-wrapper').removeClass('active');
+    $('.menu-inner-second-lvl').removeClass('active');
+    $('.menu-inner-third-lvl-content').removeClass('active');
+    $('.menu-inner-second-lvl.furnitures-inner-menu').removeClass('active');
     $('.mobile-menu-img-wrapper.rooms-inner-menu').addClass('active');
   });
 });
