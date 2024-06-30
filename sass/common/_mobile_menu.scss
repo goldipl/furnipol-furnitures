@@ -725,7 +725,7 @@ body.body-locked {
   .header-2-0 {
     .mobile-menu-img-wrapper-bottom {
       margin: 20px 0 !important;
-      justify-content: center !important;
+      padding: 0 calc((100vw - 360px) / 2);
     }
   }
 }
