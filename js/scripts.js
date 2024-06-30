@@ -15,6 +15,7 @@ $(document).ready(function(){
     closeIcons.forEach(item => {
         item.addEventListener('click', () => {
             closeMenu();
+            removingActiveClassesFromMenu();
         });
     });
 
@@ -23,10 +24,17 @@ $(document).ready(function(){
         if (window.innerWidth >= 1220) {
             if (!mobileMenu.contains(event.target) && !event.target.closest('.hamburger-menu') && mobileMenu.classList.contains('active')) {
                 closeMenu();
+                removingActiveClassesFromMenu();
             }
         }
     });
     
+    // Remove 'active' class from all elements with the specified classe
+    function removingActiveClassesFromMenu() {
+        $('.mobile-menu-img-wrapper').removeClass('active');
+        $('.menu-inner-third-lvl-content').removeClass('active');
+        $('.menu-inner-second-lvl').removeClass('active');
+    }
 
     // Function to close the menu
     function closeMenu() {
