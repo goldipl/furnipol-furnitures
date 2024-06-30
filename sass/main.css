@@ -477,8 +477,8 @@ body {
   .main-2-0 #favourite-categories .favourite-categories-slot__img img {
     width: 100%;
     height: 94px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .main-2-0 #favourite-categories .favourite-categories-slot__title {
     display: flex;
