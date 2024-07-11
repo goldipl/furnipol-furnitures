@@ -130,12 +130,36 @@ document.addEventListener('DOMContentLoaded', () => {
   if (window.innerWidth > 1220) {
     const cartHeaderIconBtn = document.querySelector('.header-2-0 .top-header__buttons .cart > a');
     const cartPreviewBox = document.querySelector('.header-2-0 .cart-preview-box');
+    const cartIcon = document.querySelector('.top-header .cart');
 
+    // Function to handle click events outside the cart preview box
+    const handleClickOutside = (event) => {
+      if (cartPreviewBox && !cartPreviewBox.contains(event.target) && event.target !== cartHeaderIconBtn) {
+        cartPreviewBox.classList.remove('active');
+        document.removeEventListener('click', handleClickOutside);
+      }
+    };
+
+    // Click event listener on cart icon button
     cartHeaderIconBtn.addEventListener('click', (e) => {
       e.preventDefault();
       if (cartPreviewBox) {
+        // Toggle active class
         cartPreviewBox.classList.toggle('active');
+
+        if (cartPreviewBox.classList.contains('active')) {
+          // Add event listener to handle clicks outside only when cart preview box is active
+          document.addEventListener('click', handleClickOutside);
+        } else {
+          // If cart preview box is closed, remove the event listener
+          document.removeEventListener('click', handleClickOutside);
+        }
       }
+    });
+
+    // Prevent propagation of click events from cart preview box to document
+    cartIcon.addEventListener('click', (e) => {
+      e.stopPropagation();
     });
   }
 });
