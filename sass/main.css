@@ -3476,7 +3476,7 @@ body.body-locked::after {
   border-radius: 0 0 7px 7px;
   padding: 30px;
   box-sizing: border-box;
-  z-index: 99;
+  z-index: 9999999;
   box-shadow: 0px 161px 45px 0px rgba(0, 0, 0, 0);
 }
 .header-2-0 .cart-preview-box-title h3 {
