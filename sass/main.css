@@ -2703,7 +2703,7 @@ body.body-locked::after {
   left: 0;
   width: 100vw;
   height: 1000vh;
-  z-index: 9999999;
+  z-index: 999999999;
 }
 
 .header-2-0 {
@@ -3438,7 +3438,7 @@ body.body-locked::after {
     overflow: hidden;
   }
   .header-2-0 .mobile-menu.active {
-    right: calc((100vw - 1728px) / 2);
+    right: 0;
   }
   .header-2-0 .mobile-menu-wrapper__content .second-lvl-menu-wrapper,
   .header-2-0 .mobile-menu-wrapper__content .menu-inner-third-lvl-content-wrapper {
@@ -3476,7 +3476,7 @@ body.body-locked::after {
   border-radius: 0 0 7px 7px;
   padding: 30px;
   box-sizing: border-box;
-  z-index: 100000000000000000000000000000000;
+  z-index: 99;
   box-shadow: 0px 161px 45px 0px rgba(0, 0, 0, 0);
 }
 .header-2-0 .cart-preview-box-title h3 {

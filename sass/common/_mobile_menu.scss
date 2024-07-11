@@ -770,7 +770,7 @@ body.body-locked {
       transition: 0.4s;
       overflow: hidden;
       &.active {
-        right: calc((100vw - 1728px) / 2);
+        right: 0;
       }
       &-wrapper {
         &__content {
