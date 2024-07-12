@@ -230,7 +230,7 @@
               .compare-box-icon,
               .fav-box-icon {
                 &:hover {
-                  border: unset;
+                  border: 1px solid $light_grey03;
                 }
               }
             }
