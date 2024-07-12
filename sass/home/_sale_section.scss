@@ -224,6 +224,18 @@
           justify-content: center;
           align-items: center;
         }
+        .swiper-wrapper {
+          .swiper-slide {
+            &__icons {
+              .compare-box-icon,
+              .fav-box-icon {
+                &:hover {
+                  border: unset;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -238,18 +250,6 @@
       #sale-slider {
         .swiper-pagination {
           display: none;
-        }
-        .swiper-wrapper {
-          .swiper-slide {
-            &__icons {
-              .compare-box-icon,
-              .fav-box-icon {
-                &:hover {
-                  border: unset;
-                }
-              }
-            }
-          }
         }
       }
     }
