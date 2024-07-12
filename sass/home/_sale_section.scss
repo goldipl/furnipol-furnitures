@@ -120,11 +120,13 @@
             height: auto;
             border-radius: 20px;
             margin-bottom: 13px;
+            aspect-ratio: 5 / 4;
             img {
               width: 100%;
+              height: 100%;
               border-radius: 20px;
               object-fit: cover;
-              aspect-ratio: 4 / 5;
+              aspect-ratio: 5 / 4;
             }
           }
           &__content {
