@@ -254,7 +254,7 @@ body {
   border: 1px solid #25262b;
 }
 .main-2-0 #sale #sale-slider .swiper-wrapper .swiper-slide__icons .fav-box-icon img.active {
-  background: url(./../../assets/icons/home/sale_section/orange-full-heart.svg) !important;
+  background: url(./../assets/icons/home/sale_section/orange-full-heart.svg) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: contain !important;
