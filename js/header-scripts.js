@@ -7,6 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
         nextEl: '.swiper-button-next.menu-furnitures-swiper-next',
         prevEl: '.swiper-button-prev.menu-furnitures-swiper-prev',
       },
+      breakpoints: {
+        1600: {
+          slidesPerView: 7,
+          spaceBetween: 20,
+        },
+        1400: {
+          slidesPerView: 6,
+          spaceBetween: 20,
+        },
+        1240: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        },
+      },
     });
     const rooms_menu_swiper = new Swiper('.menu-rooms-swiper', {
       direction: 'horizontal',
@@ -15,6 +29,20 @@ document.addEventListener('DOMContentLoaded', () => {
       navigation: {
         nextEl: '.swiper-button-next.menu-rooms-swiper-next',
         prevEl: '.swiper-button-prev.menu-rooms-swiper-prev',
+      },
+      breakpoints: {
+        1600: {
+          slidesPerView: 7,
+          spaceBetween: 20,
+        },
+        1400: {
+          slidesPerView: 6,
+          spaceBetween: 20,
+        },
+        1240: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        },
       },
     });
     const available_menu_swiper = new Swiper('.menu-available-swiper', {
