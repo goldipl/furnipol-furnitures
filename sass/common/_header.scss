@@ -16,6 +16,7 @@
   }
 
   .top-header {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +25,17 @@
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
-    border-bottom: 2px solid $white;
+
+    &::before {
+      position: absolute;
+      content: "";
+      display: block;
+      height: 2px;
+      width: 200vw;
+      left: -50vw;
+      bottom: 0;
+      background-color: $white;
+    }
 
     &.fixed-header {
       background-color: $light_grey01;
@@ -208,6 +219,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    max-width: 1728px;
     height: 49px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -309,7 +321,7 @@
         max-width: 1728px;
         position: absolute;
         top: 49px;
-        left: calc((100vw - 1744px) / 2);
+        left: 0;
         z-index: 2;
         background-color: $white;
         padding: 0px 154px;

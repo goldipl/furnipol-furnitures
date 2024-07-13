@@ -1748,6 +1748,7 @@ body {
   max-width: 1728px;
 }
 .header-2-0 .top-header {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1756,7 +1757,16 @@ body {
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
-  border-bottom: 2px solid #ffffff;
+}
+.header-2-0 .top-header::before {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 200vw;
+  left: -50vw;
+  bottom: 0;
+  background-color: #ffffff;
 }
 .header-2-0 .top-header.fixed-header {
   background-color: #f5f5f5;
@@ -1933,6 +1943,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  max-width: 1728px;
   height: 49px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -2031,7 +2042,7 @@ body {
   max-width: 1728px;
   position: absolute;
   top: 49px;
-  left: calc((100vw - 1744px) / 2);
+  left: 0;
   z-index: 2;
   background-color: #ffffff;
   padding: 0px 154px;
