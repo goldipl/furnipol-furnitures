@@ -3350,7 +3350,7 @@ body.body-locked::after {
   background-color: #ffffff;
   box-shadow: none;
   cursor: pointer;
-  background: url(./../../assets/icons/menu/menu-select-arrow.svg) no-repeat right #ffffff;
+  background: url(./../assets/icons/menu/menu-select-arrow.svg) no-repeat right #ffffff;
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;
@@ -3366,7 +3366,7 @@ body.body-locked::after {
   background-color: #ffffff;
 }
 .header-2-0 .mobile-menu-wrapper__content-lang-select .lang-select__select:focus {
-  background: url(./../../assets/icons/menu/menu-select-arrow-rotate.svg) no-repeat right #ffffff;
+  background: url(./../assets/icons/menu/menu-select-arrow-rotate.svg) no-repeat right #ffffff;
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;

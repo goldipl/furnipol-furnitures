@@ -650,7 +650,7 @@ body.body-locked {
             background-color: $white;
             box-shadow: none;
             cursor: pointer;
-            background: url(./../../assets/icons/menu/menu-select-arrow.svg)
+            background: url(./../assets/icons/menu/menu-select-arrow.svg)
               no-repeat right $white;
             appearance: none;
             -webkit-appearance: none;
@@ -665,7 +665,7 @@ body.body-locked {
               background-color: $white;
             }
             &:focus {
-              background: url(./../../assets/icons/menu/menu-select-arrow-rotate.svg)
+              background: url(./../assets/icons/menu/menu-select-arrow-rotate.svg)
                 no-repeat right $white;
               appearance: none;
               -webkit-appearance: none;
