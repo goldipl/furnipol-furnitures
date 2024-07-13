@@ -4,11 +4,12 @@ html {
   margin: 0;
 }
 
+body:has(.main-2-0),
+html:has(.main-2-0) {
+  overflow-x: hidden;
+}
+
 @media (max-width: 1220px) {
-  body:has(.main-2-0),
-  html:has(.main-2-0) {
-    overflow-x: hidden;
-  }
   body {
     margin-bottom: 67px;
   }
