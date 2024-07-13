@@ -450,6 +450,13 @@
       &.fixed {
         left: 0;
       }
+      .bottom-header-nav__wrapper {
+        max-width: 100%;
+        .menu-available-swiper {
+          display: flex;
+          justify-content: center;
+        }
+      }
     }
   }
 }

@@ -2181,6 +2181,13 @@ body {
   .header-2-0 .bottom-header.fixed {
     left: 0;
   }
+  .header-2-0 .bottom-header .bottom-header-nav__wrapper {
+    max-width: 100%;
+  }
+  .header-2-0 .bottom-header .bottom-header-nav__wrapper .menu-available-swiper {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 1220px) {
   .header-2-0 {
