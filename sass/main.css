@@ -1755,7 +1755,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-.header-2-0 .top-header::before {
+.header-2-0 .top-header::after {
   position: absolute;
   content: "";
   display: block;
@@ -2195,6 +2195,9 @@ body {
   }
   .header-2-0 .top-header {
     height: 60px;
+  }
+  .header-2-0 .top-header::after {
+    height: 1px;
   }
   .header-2-0 .top-header.fixed-header::before {
     display: none;
