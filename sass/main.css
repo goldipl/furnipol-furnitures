@@ -2769,6 +2769,9 @@ body.body-locked::after {
 .header-2-0 .mobile-menu.active {
   transform: translateX(0);
 }
+.header-2-0 .mobile-menu.transition-delay {
+  transition: all 0.2s ease 0.2s;
+}
 .header-2-0 .mobile-menu-wrapper {
   display: flex;
   flex-direction: column;

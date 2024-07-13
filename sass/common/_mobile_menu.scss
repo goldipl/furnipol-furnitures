@@ -57,6 +57,9 @@ body.body-locked {
     &.active {
       transform: translateX(0);
     }
+    &.transition-delay {
+      transition: all 0.2s ease 0.2s;
+    }
     &-wrapper {
       display: flex;
       flex-direction: column;
