@@ -2,10 +2,6 @@
 body,
 html {
   margin: 0;
-}
-
-body:has(.main-2-0),
-html:has(.main-2-0) {
   overflow-x: hidden;
 }
 
